@@ -1,0 +1,3418 @@
+# Copyright (C) 2011 Free Software Foundation, Inc.
+# This file is distributed under the same license as the NetworkManager package.
+#
+# Yuri Chornoivan <yurchor@ukr.net>, 2011, 2012, 2013.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-17 19:51+0300\n"
+"PO-Revision-Date: 2013-04-17 20:20+0300\n"
+"Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
+"Language-Team: Ukrainian <kde-i18n-uk@kde.org>\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Lokalize 1.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../cli/src/common.c:32 ../cli/src/common.c:44 ../cli/src/common.c:52
+#: ../cli/src/common.c:63 ../cli/src/connections.c:133
+#: ../cli/src/connections.c:167
+msgid "GROUP"
+msgstr "ГРУПА"
+
+#. 0
+#: ../cli/src/common.c:33 ../cli/src/common.c:53
+msgid "ADDRESS"
+msgstr "АДРЕСА"
+
+#. 1
+#: ../cli/src/common.c:34 ../cli/src/common.c:54
+msgid "ROUTE"
+msgstr "МАРШРУТ"
+
+#. 2
+#: ../cli/src/common.c:35 ../cli/src/common.c:55
+msgid "DNS"
+msgstr "DNS"
+
+#. 3
+#: ../cli/src/common.c:36 ../cli/src/common.c:56
+msgid "DOMAIN"
+msgstr "ДОМЕН"
+
+#. 4
+#: ../cli/src/common.c:37
+msgid "WINS"
+msgstr "WINS"
+
+#. 0
+#: ../cli/src/common.c:45 ../cli/src/common.c:64
+msgid "OPTION"
+msgstr "ПАРАМЕТР"
+
+#: ../cli/src/common.c:366
+msgid "unmanaged"
+msgstr "некерований"
+
+#: ../cli/src/common.c:368
+msgid "unavailable"
+msgstr "недоступний"
+
+#: ../cli/src/common.c:370 ../cli/src/network-manager.c:175
+msgid "disconnected"
+msgstr "роз'єднано"
+
+#: ../cli/src/common.c:372
+msgid "connecting (prepare)"
+msgstr "з’єднання (приготування)"
+
+#: ../cli/src/common.c:374
+msgid "connecting (configuring)"
+msgstr "з’єднання (налаштовування)"
+
+#: ../cli/src/common.c:376
+msgid "connecting (need authentication)"
+msgstr "з’єднання (потрібне розпізнавання)"
+
+#: ../cli/src/common.c:378
+msgid "connecting (getting IP configuration)"
+msgstr "з’єднання (отримання налаштувань IP)"
+
+#: ../cli/src/common.c:380
+msgid "connecting (checking IP connectivity)"
+msgstr "з’єднання (перевірка можливості з’єднання)"
+
+#: ../cli/src/common.c:382
+msgid "connecting (starting secondary connections)"
+msgstr "з’єднання (встановлення другорядних з’єднань)"
+
+#: ../cli/src/common.c:384 ../cli/src/network-manager.c:171
+msgid "connected"
+msgstr "з'єднано"
+
+#: ../cli/src/common.c:386 ../cli/src/connections.c:466
+msgid "deactivating"
+msgstr "деактивація"
+
+#: ../cli/src/common.c:388
+msgid "connection failed"
+msgstr "невдала спроба з’єднання"
+
+#: ../cli/src/common.c:390 ../cli/src/connections.c:471
+#: ../cli/src/connections.c:494 ../cli/src/connections.c:1191
+#: ../cli/src/devices.c:664 ../cli/src/devices.c:1919
+#: ../cli/src/network-manager.c:178 ../cli/src/network-manager.c:241
+#: ../cli/src/network-manager.c:244 ../cli/src/network-manager.c:253
+#: ../cli/src/network-manager.c:310 ../cli/src/network-manager.c:326
+#: ../cli/src/network-manager.c:810 ../cli/src/network-manager.c:865
+#: ../cli/src/network-manager.c:903 ../cli/src/network-manager.c:942
+#: ../cli/src/settings.c:664 ../cli/src/settings.c:692
+#: ../cli/src/settings.c:754 ../cli/src/utils.c:614 ../src/main.c:403
+#: ../src/main.c:422
+msgid "unknown"
+msgstr "невідомо"
+
+#: ../cli/src/common.c:399
+msgid "No reason given"
+msgstr "Причину не вказано"
+
+#: ../cli/src/common.c:402
+msgid "Unknown error"
+msgstr "Невідома помилка"
+
+#: ../cli/src/common.c:405
+msgid "Device is now managed"
+msgstr "Тепер пристрій є керованим"
+
+#: ../cli/src/common.c:408
+msgid "Device is now unmanaged"
+msgstr "Тепер пристрій є некерованим"
+
+#: ../cli/src/common.c:411
+msgid "The device could not be readied for configuration"
+msgstr "Пристрій не може бути приготовано до налаштовування"
+
+#: ../cli/src/common.c:414
+msgid ""
+"IP configuration could not be reserved (no available address, timeout, etc.)"
+msgstr ""
+"Не вдалося зарезервувати налаштування IP (немає доступної адреси, часу "
+"очікування тощо)"
+
+#: ../cli/src/common.c:417
+msgid "The IP configuration is no longer valid"
+msgstr "Налаштування IP вже не є коректними"
+
+#: ../cli/src/common.c:420
+msgid "Secrets were required, but not provided"
+msgstr "Потрібні були реєстраційні дані, яких не було надано"
+
+#: ../cli/src/common.c:423
+msgid "802.1X supplicant disconnected"
+msgstr "Допоміжну програму 802.1X від’єднано"
+
+#: ../cli/src/common.c:426
+msgid "802.1X supplicant configuration failed"
+msgstr "Спроба налаштувати допоміжну програму 802.1X завершилася невдало"
+
+#: ../cli/src/common.c:429
+msgid "802.1X supplicant failed"
+msgstr "Помилка допоміжної програми 802.1X"
+
+#: ../cli/src/common.c:432
+msgid "802.1X supplicant took too long to authenticate"
+msgstr ""
+"Розпізнавання за допомогою допоміжної програми 802.1X триває занадто довго"
+
+#: ../cli/src/common.c:435
+msgid "PPP service failed to start"
+msgstr "Не вдалося запустити службу PPP"
+
+#: ../cli/src/common.c:438
+msgid "PPP service disconnected"
+msgstr "Службу PPP від’єднано"
+
+#: ../cli/src/common.c:441
+msgid "PPP failed"
+msgstr "помилка PPP"
+
+#: ../cli/src/common.c:444
+msgid "DHCP client failed to start"
+msgstr "Не вдалося запустити клієнтську програму DHCP"
+
+#: ../cli/src/common.c:447
+msgid "DHCP client error"
+msgstr "помилка клієнтської програми DHCP"
+
+#: ../cli/src/common.c:450
+msgid "DHCP client failed"
+msgstr "критична помилка клієнтської програми DHCP"
+
+#: ../cli/src/common.c:453
+msgid "Shared connection service failed to start"
+msgstr "Не вдалося запустити службу спільного використання з’єднання"
+
+#: ../cli/src/common.c:456
+msgid "Shared connection service failed"
+msgstr "Критична помилка служби спільного використання з’єднання"
+
+#: ../cli/src/common.c:459
+msgid "AutoIP service failed to start"
+msgstr "Не вдалося запустити службу AutoIP"
+
+#: ../cli/src/common.c:462
+msgid "AutoIP service error"
+msgstr "Помилка служби AutoIP"
+
+#: ../cli/src/common.c:465
+msgid "AutoIP service failed"
+msgstr "Помилка служби AutoIP"
+
+#: ../cli/src/common.c:468
+msgid "The line is busy"
+msgstr "Лінію зайнято"
+
+#: ../cli/src/common.c:471
+msgid "No dial tone"
+msgstr "Немає гудка"
+
+#: ../cli/src/common.c:474
+msgid "No carrier could be established"
+msgstr "Не вдалося визначити носій сигналу"
+
+#: ../cli/src/common.c:477
+msgid "The dialing request timed out"
+msgstr "Перевищено час очікування на підтвердження запиту щодо набору номера"
+
+#: ../cli/src/common.c:480
+msgid "The dialing attempt failed"
+msgstr "Спроба набирання номера завершилася невдало"
+
+#: ../cli/src/common.c:483
+msgid "Modem initialization failed"
+msgstr "Не вдалося ініціалізувати модем"
+
+#: ../cli/src/common.c:486
+msgid "Failed to select the specified APN"
+msgstr "Не вдалося вибрати вказаний APN"
+
+#: ../cli/src/common.c:489
+msgid "Not searching for networks"
+msgstr "Пошук мереж не виконується"
+
+#: ../cli/src/common.c:492
+msgid "Network registration denied"
+msgstr "Реєстрацію у мережі заборонено"
+
+#: ../cli/src/common.c:495
+msgid "Network registration timed out"
+msgstr "Перевищено час очікування на реєстрацію у мережі"
+
+#: ../cli/src/common.c:498
+msgid "Failed to register with the requested network"
+msgstr "Не вдалося зареєструватися у потрібній мережі"
+
+#: ../cli/src/common.c:501
+msgid "PIN check failed"
+msgstr "Помилка під час спроби перевірити PIN-код"
+
+#: ../cli/src/common.c:504
+msgid "Necessary firmware for the device may be missing"
+msgstr "Можливо, не вистачає потрібної для роботи пристрою мікропрограми"
+
+#: ../cli/src/common.c:507
+msgid "The device was removed"
+msgstr "Пристрій вилучено"
+
+#: ../cli/src/common.c:510
+msgid "NetworkManager went to sleep"
+msgstr "NetworkManager переведено у режим сну"
+
+#: ../cli/src/common.c:513
+msgid "The device's active connection disappeared"
+msgstr "Активне з’єднання з пристроєм зникло"
+
+#: ../cli/src/common.c:516
+msgid "Device disconnected by user or client"
+msgstr "Пристрій роз’єднано з боку користувача або клієнтської програми"
+
+#: ../cli/src/common.c:519
+msgid "Carrier/link changed"
+msgstr "Змінено носій або зв’язок"
+
+#: ../cli/src/common.c:522
+msgid "The device's existing connection was assumed"
+msgstr ""
+"Зроблено припущення щодо використання вже встановленого з’єднання з пристроєм"
+
+#: ../cli/src/common.c:525
+msgid "The supplicant is now available"
+msgstr "Відкрито доступ до допоміжної програми"
+
+#: ../cli/src/common.c:528
+msgid "The modem could not be found"
+msgstr "Не вдалося виявити модем"
+
+#: ../cli/src/common.c:531
+msgid "The Bluetooth connection failed or timed out"
+msgstr ""
+"Помилка з’єднання Bluetooth або перевищення часу очікування на передавання "
+"даних з’єднанням"
+
+#: ../cli/src/common.c:534
+msgid "GSM Modem's SIM card not inserted"
+msgstr "До модема GSM не вставлено SIM-картки"
+
+#: ../cli/src/common.c:537
+msgid "GSM Modem's SIM PIN required"
+msgstr "Слід вказати PIN-код SIM-картки у модемі GSM"
+
+#: ../cli/src/common.c:540
+msgid "GSM Modem's SIM PUK required"
+msgstr "Слід вказати код розпізнавання (PUK) SIM-картки у модемі GSM"
+
+#: ../cli/src/common.c:543
+msgid "GSM Modem's SIM wrong"
+msgstr "Помилкова SIM-картка у модемі GSM"
+
+#: ../cli/src/common.c:546
+msgid "InfiniBand device does not support connected mode"
+msgstr "У пристрої InfiniBand не передбачено режиму з’єднання"
+
+#: ../cli/src/common.c:549
+msgid "A dependency of the connection failed"
+msgstr "Не вдалося використати залежність з’єднання"
+
+#: ../cli/src/common.c:552
+msgid "A problem with the RFC 2684 Ethernet over ADSL bridge"
+msgstr "Проблема з містком Ethernet на основі ADSL відповідно до RFC 2684"
+
+#: ../cli/src/common.c:555
+msgid "ModemManager is unavailable"
+msgstr "ModemManager недоступнийІ"
+
+#: ../cli/src/common.c:558
+msgid "The Wi-Fi network could not be found"
+msgstr "Не вдалося виявити мережу Wi-Fi"
+
+#: ../cli/src/common.c:561
+msgid "A secondary connection of the base connection failed"
+msgstr "Не вдалося встановити вторинне щодо основного з’єднання"
+
+#: ../cli/src/common.c:564 ../cli/src/devices.c:310 ../cli/src/devices.c:328
+#: ../cli/src/devices.c:450 ../cli/src/devices.c:494
+msgid "Unknown"
+msgstr "Невідомо"
+
+#. 0
+#. used only for 'GENERAL' group listing
+#: ../cli/src/connections.c:60 ../cli/src/connections.c:134
+#: ../cli/src/devices.c:109 ../cli/src/devices.c:134 ../cli/src/devices.c:144
+#: ../cli/src/devices.c:154 ../cli/src/devices.c:164 ../cli/src/devices.c:180
+#: ../cli/src/devices.c:194 ../cli/src/devices.c:216 ../cli/src/devices.c:232
+#: ../cli/src/devices.c:241
+msgid "NAME"
+msgstr "НАЗВА"
+
+#. 0
+#. 1
+#: ../cli/src/connections.c:61 ../cli/src/connections.c:135
+msgid "UUID"
+msgstr "UUID"
+
+#. 1
+#. 0
+#. 1
+#. 2
+#: ../cli/src/connections.c:62 ../cli/src/connections.c:168
+#: ../cli/src/devices.c:72 ../cli/src/devices.c:111 ../cli/src/devices.c:219
+msgid "TYPE"
+msgstr "ТИП"
+
+#. 2
+#: ../cli/src/connections.c:63
+msgid "TIMESTAMP"
+msgstr "ЧАСОВА МІТКА"
+
+#. 3
+#: ../cli/src/connections.c:64
+msgid "TIMESTAMP-REAL"
+msgstr "ДІЙСНА ЧАСОВА МІТКА"
+
+#. 4
+#. 13
+#: ../cli/src/connections.c:65 ../cli/src/devices.c:123
+msgid "AUTOCONNECT"
+msgstr "АВТОЗ’ЄДНАННЯ"
+
+#. 5
+#: ../cli/src/connections.c:66
+msgid "READONLY"
+msgstr "ЛИШЕ ЧИТАННЯ"
+
+#. 6
+#. 8
+#. 2
+#. 11
+#. 5
+#: ../cli/src/connections.c:67 ../cli/src/connections.c:142
+#: ../cli/src/devices.c:74 ../cli/src/devices.c:206 ../cli/src/devices.c:222
+msgid "DBUS-PATH"
+msgstr "DBUS-PATH"
+
+#. 2
+#: ../cli/src/connections.c:136
+msgid "DEVICES"
+msgstr "ПРИСТРОЇ"
+
+#. 3
+#. 1
+#. 8
+#. 1
+#: ../cli/src/connections.c:137 ../cli/src/devices.c:73
+#: ../cli/src/devices.c:118 ../cli/src/network-manager.c:39
+#: ../cli/src/network-manager.c:69
+msgid "STATE"
+msgstr "СТАН"
+
+#. 4
+#: ../cli/src/connections.c:138
+msgid "DEFAULT"
+msgstr "ТИПОВЕ"
+
+#. 5
+#: ../cli/src/connections.c:139
+msgid "DEFAULT6"
+msgstr "ТИПОВИЙ6"
+
+#. 6
+#: ../cli/src/connections.c:140
+msgid "SPEC-OBJECT"
+msgstr "SPEC-OBJECT"
+
+#. 7
+#. 1
+#: ../cli/src/connections.c:141 ../cli/src/connections.c:155
+msgid "VPN"
+msgstr "VPN"
+
+#. 9
+#: ../cli/src/connections.c:143
+msgid "CON-PATH"
+msgstr "ШЛЯХ-ДО-CON"
+
+#. 10
+#: ../cli/src/connections.c:144
+msgid "ZONE"
+msgstr "ЗОНА"
+
+#. 11
+#: ../cli/src/connections.c:145
+msgid "MASTER-PATH"
+msgstr "ОСНОВНИЙ-ШЛЯХ"
+
+#: ../cli/src/connections.c:153 ../cli/src/devices.c:83
+msgid "GENERAL"
+msgstr "ЗАГАЛЬНІ"
+
+#. 0
+#: ../cli/src/connections.c:154
+msgid "IP"
+msgstr "IP"
+
+#. 1
+#: ../cli/src/connections.c:169
+msgid "USERNAME"
+msgstr "КОРИСТУВАЧ"
+
+#. 2
+#: ../cli/src/connections.c:170
+msgid "GATEWAY"
+msgstr "ШЛЮЗ"
+
+#. 3
+#: ../cli/src/connections.c:171
+msgid "BANNER"
+msgstr "БАНЕР"
+
+#. 4
+#: ../cli/src/connections.c:172
+msgid "VPN-STATE"
+msgstr "СТАН-VPN"
+
+#. 5
+#: ../cli/src/connections.c:173
+msgid "CFG"
+msgstr "КОНФ"
+
+#: ../cli/src/connections.c:195
+#, c-format
+msgid ""
+"Usage: nmcli connection { COMMAND | help }\n"
+"  COMMAND := { show | up | down | delete }\n"
+"\n"
+"  show configured [[ id | uuid | path ] <ID>]\n"
+"\n"
+"  show active     [[ id | uuid | path | apath ] <ID>]\n"
+"\n"
+"  up [ id | uuid | path ] <ID> [iface <iface>] [ap <BSSID>] [nsp <name>] [--"
+"nowait] [--timeout <timeout>]\n"
+"\n"
+"  up [ id | uuid | path ] <ID> [iface <iface>] [ap <BSSID>] [--nowait] [--"
+"timeout <timeout>]\n"
+"\n"
+"  down [ id | uuid | path | apath ] <ID>\n"
+"\n"
+"  delete [ id | uuid | path ] <ID>\n"
+"\n"
+msgstr ""
+"Користування: nmcli connection { КОМАНДА | help }\n"
+"  КОМАНДА := { show | up | down | delete }\n"
+"\n"
+"  show configured [[ id | uuid | path ] <ідентифікатор>]\n"
+"\n"
+"  show active     [[ id | uuid | path | apath ] <ідентифікатор>]\n"
+"\n"
+"  up [ id | uuid | path ] <ідентифікатор> [iface <інтерфейс>] [ap <"
+"ідентифікатор BSS>] [nsp <назва>] [--"
+"nowait] [--timeout <очікування>]\n"
+"\n"
+"  up [ id | uuid | path ] <ідентифікатор> [iface <інтерфейс>] [ap <"
+"ідентифікатор BSS>] [--nowait] [--"
+"timeout <очікування>]\n"
+"\n"
+"  down [ id | uuid | path | apath ] <ідентифікатор>\n"
+"\n"
+"  delete [ id | uuid | path ] <ідентифікатор>\n"
+"\n"
+
+#: ../cli/src/connections.c:254
+#, c-format
+msgid "Error: 'list configured': %s"
+msgstr "Помилка: «list configured»: %s"
+
+#: ../cli/src/connections.c:256
+#, c-format
+msgid "Error: 'list configured': %s; allowed fields: %s"
+msgstr "Помилка: «list configured»: %s; дозволені поля: %s"
+
+#: ../cli/src/connections.c:264
+msgid "Connection details"
+msgstr "Параметри з’єднання"
+
+#: ../cli/src/connections.c:315
+msgid "never"
+msgstr "ніколи"
+
+#. "CAPABILITIES"
+#. Print header
+#. "WIFI-PROPERTIES"
+#: ../cli/src/connections.c:316 ../cli/src/connections.c:317
+#: ../cli/src/connections.c:552 ../cli/src/connections.c:553
+#: ../cli/src/connections.c:555 ../cli/src/devices.c:458
+#: ../cli/src/devices.c:511 ../cli/src/devices.c:629 ../cli/src/devices.c:630
+#: ../cli/src/devices.c:631 ../cli/src/devices.c:663 ../cli/src/devices.c:690
+#: ../cli/src/devices.c:691 ../cli/src/devices.c:692 ../cli/src/devices.c:693
+#: ../cli/src/devices.c:694 ../cli/src/devices.c:695 ../cli/src/devices.c:696
+#: ../cli/src/network-manager.c:320
+msgid "yes"
+msgstr "так"
+
+#: ../cli/src/connections.c:316 ../cli/src/connections.c:317
+#: ../cli/src/connections.c:552 ../cli/src/connections.c:553
+#: ../cli/src/connections.c:555 ../cli/src/devices.c:458
+#: ../cli/src/devices.c:511 ../cli/src/devices.c:629 ../cli/src/devices.c:630
+#: ../cli/src/devices.c:631 ../cli/src/devices.c:663 ../cli/src/devices.c:690
+#: ../cli/src/devices.c:691 ../cli/src/devices.c:692 ../cli/src/devices.c:693
+#: ../cli/src/devices.c:694 ../cli/src/devices.c:695 ../cli/src/devices.c:696
+#: ../cli/src/network-manager.c:322
+msgid "no"
+msgstr "ні"
+
+#: ../cli/src/connections.c:398
+msgid "List of configured connections"
+msgstr "Список налаштованих з’єднань"
+
+#: ../cli/src/connections.c:415 ../cli/src/connections.c:951
+#: ../cli/src/connections.c:1402 ../cli/src/connections.c:1423
+#: ../cli/src/connections.c:1432 ../cli/src/connections.c:1442
+#: ../cli/src/connections.c:1454 ../cli/src/connections.c:1578
+#: ../cli/src/connections.c:1678 ../cli/src/devices.c:1198
+#: ../cli/src/devices.c:1306 ../cli/src/devices.c:1314
+#: ../cli/src/devices.c:1685 ../cli/src/devices.c:1692
+#: ../cli/src/devices.c:1706 ../cli/src/devices.c:1713
+#: ../cli/src/devices.c:1730 ../cli/src/devices.c:1741
+#: ../cli/src/devices.c:1939 ../cli/src/devices.c:2027
+#: ../cli/src/devices.c:2034
+#, c-format
+msgid "Error: %s argument is missing."
+msgstr "Помилка: пропущено аргумент %s."
+
+#: ../cli/src/connections.c:429
+#, c-format
+msgid "Error: %s - no such connection."
+msgstr "Помилка: невідоме з’єднання %s."
+
+#: ../cli/src/connections.c:442
+#, c-format
+msgid "Error: 'show configured': %s"
+msgstr "Помилка: «show configured»: %s"
+
+#: ../cli/src/connections.c:444
+#, c-format
+msgid "Error: 'show configured': %s; allowed fields: %s"
+msgstr "Помилка: «show configured»: %s; дозволені поля: %s"
+
+#: ../cli/src/connections.c:449 ../cli/src/connections.c:1781
+#: ../cli/src/devices.c:1918 ../cli/src/devices.c:2247
+#: ../cli/src/network-manager.c:423 ../cli/src/network-manager.c:489
+#: ../cli/src/network-manager.c:499 ../cli/src/network-manager.c:507
+#: ../cli/src/network-manager.c:517 ../cli/src/network-manager.c:539
+#: ../cli/src/network-manager.c:644 ../cli/src/network-manager.c:657
+#: ../cli/src/network-manager.c:978
+#, c-format
+msgid "Error: %s."
+msgstr "Помилка: %s."
+
+#: ../cli/src/connections.c:462
+msgid "activating"
+msgstr "активація"
+
+#: ../cli/src/connections.c:464
+msgid "activated"
+msgstr "активовано"
+
+#: ../cli/src/connections.c:468
+msgid "deactivated"
+msgstr "вимкнено"
+
+#: ../cli/src/connections.c:480
+msgid "VPN connecting (prepare)"
+msgstr "З’єднання VPN (приготування)"
+
+#: ../cli/src/connections.c:482
+msgid "VPN connecting (need authentication)"
+msgstr "З’єднання VPN (потрібне розпізнавання)"
+
+#: ../cli/src/connections.c:484
+msgid "VPN connecting"
+msgstr "З’єднання VPN"
+
+#: ../cli/src/connections.c:486
+msgid "VPN connecting (getting IP configuration)"
+msgstr "З’єднання VPN (отримання налаштувань IP)"
+
+#: ../cli/src/connections.c:488
+msgid "VPN connected"
+msgstr "VPN з’єднано"
+
+#: ../cli/src/connections.c:490
+msgid "VPN connection failed"
+msgstr "Невдала спроба з’єднання VPN"
+
+#: ../cli/src/connections.c:492
+msgid "VPN disconnected"
+msgstr "VPN роз’єднано"
+
+#: ../cli/src/connections.c:548 ../cli/src/connections.c:558
+msgid "N/A"
+msgstr "н/д"
+
+#: ../cli/src/connections.c:757
+#, c-format
+msgid "Error: 'list active': %s"
+msgstr "Помилка: «list active»: %s"
+
+#: ../cli/src/connections.c:759
+#, c-format
+msgid "Error: 'list active': %s; allowed fields: %s"
+msgstr "Помилка: «list active»: %s; дозволені поля: %s"
+
+#: ../cli/src/connections.c:767
+msgid "Active connection details"
+msgstr "Параметри активного з’єднання"
+
+#: ../cli/src/connections.c:905 ../cli/src/connections.c:1478
+#: ../cli/src/connections.c:1561 ../cli/src/connections.c:1647
+#: ../cli/src/devices.c:1005 ../cli/src/devices.c:1049
+#: ../cli/src/devices.c:1223 ../cli/src/devices.c:1352
+#: ../cli/src/devices.c:1777 ../cli/src/devices.c:2071
+#: ../cli/src/network-manager.c:366
+#, c-format
+msgid "Error: NetworkManager is not running."
+msgstr "Помилка: NetworkManager не працює."
+
+#: ../cli/src/connections.c:934
+msgid "List of active connections"
+msgstr "Список активних з’єднань"
+
+#: ../cli/src/connections.c:965 ../cli/src/connections.c:1588
+#, c-format
+msgid "Error: '%s' is not an active connection."
+msgstr "Помилка: «%s» не є активним з’єднанням."
+
+#: ../cli/src/connections.c:978
+#, c-format
+msgid "Error: 'show active': %s"
+msgstr "Помилка: «show active»: %s"
+
+#: ../cli/src/connections.c:980
+#, c-format
+msgid "Error: 'show active': %s; allowed fields: %s"
+msgstr "Помилка: «show active»: %s; дозволені поля: %s"
+
+#: ../cli/src/connections.c:1073
+#, c-format
+msgid "no active connection on device '%s'"
+msgstr "на пристрої «%s» немає активних з’єднань"
+
+#: ../cli/src/connections.c:1081
+msgid "no active connection or device"
+msgstr "немає активних з’єднань або пристроїв"
+
+#: ../cli/src/connections.c:1152
+#, c-format
+msgid "device '%s' not compatible with connection '%s'"
+msgstr "пристрій «%s» несумісний зі з’єднанням «%s»"
+
+#: ../cli/src/connections.c:1155
+#, c-format
+msgid "no device found for connection '%s'"
+msgstr "не виявлено пристрою для з’єднання «%s»"
+
+#: ../cli/src/connections.c:1167
+msgid "unknown reason"
+msgstr "невідома причина"
+
+#: ../cli/src/connections.c:1169
+msgid "none"
+msgstr "немає"
+
+#: ../cli/src/connections.c:1171
+msgid "the user was disconnected"
+msgstr "користувача від’єднано"
+
+#: ../cli/src/connections.c:1173
+msgid "the base network connection was interrupted"
+msgstr "основне з’єднання з мережею розірвано"
+
+#: ../cli/src/connections.c:1175
+msgid "the VPN service stopped unexpectedly"
+msgstr "служба VPN неочікувано завершила роботу"
+
+#: ../cli/src/connections.c:1177
+msgid "the VPN service returned invalid configuration"
+msgstr "службою VPN повернуто неприпустимі налаштування"
+
+#: ../cli/src/connections.c:1179
+msgid "the connection attempt timed out"
+msgstr "перевищено час очікування на встановлення з’єднання"
+
+#: ../cli/src/connections.c:1181
+msgid "the VPN service did not start in time"
+msgstr "службу VPN не було вчасно запущено"
+
+#: ../cli/src/connections.c:1183
+msgid "the VPN service failed to start"
+msgstr "не вдалося запустити службу VPN"
+
+#: ../cli/src/connections.c:1185
+msgid "no valid VPN secrets"
+msgstr "не виявлено коректних реєстраційних даних VPN"
+
+#: ../cli/src/connections.c:1187
+msgid "invalid VPN secrets"
+msgstr "некоректні реєстраційні дані VPN"
+
+#: ../cli/src/connections.c:1189
+msgid "the connection was removed"
+msgstr "з’єднання було вилучено"
+
+#: ../cli/src/connections.c:1206 ../cli/src/connections.c:1326
+#, c-format
+msgid "Connection successfully activated (D-Bus active path: %s)\n"
+msgstr "З’єднання успішно задіяно (активний шлях D-Bus: %s)\n"
+
+#: ../cli/src/connections.c:1211
+#, c-format
+msgid "Error: Connection activation failed."
+msgstr "Помилка: невдала спроба активації з’єднання."
+
+#: ../cli/src/connections.c:1236
+#, c-format
+msgid "VPN connection successfully activated (D-Bus active path: %s)\n"
+msgstr "З’єднання VPN успішно задіяно (активний шлях D-Bus: %s)\n"
+
+#: ../cli/src/connections.c:1244
+#, c-format
+msgid "Error: Connection activation failed: %s."
+msgstr "Помилка: не вдалося активувати з’єднання: %s."
+
+#: ../cli/src/connections.c:1262 ../cli/src/devices.c:1110
+#, c-format
+msgid "Error: Timeout %d sec expired."
+msgstr "Помилка: перевищено час очікування у %d с."
+
+#: ../cli/src/connections.c:1317
+#, c-format
+msgid "Error: Connection activation failed: %s"
+msgstr "Помилка: не вдалося активувати з’єднання: %s"
+
+#: ../cli/src/connections.c:1386 ../cli/src/connections.c:1546
+#: ../cli/src/connections.c:1654
+msgid "Connection (name, UUID, or path): "
+msgstr "З’єднання (назва, UUID або шлях): "
+
+#: ../cli/src/connections.c:1391 ../cli/src/connections.c:1551
+#: ../cli/src/connections.c:1659
+#, c-format
+msgid "Error: No connection specified."
+msgstr "Помилка: не вказано з’єднання."
+
+#: ../cli/src/connections.c:1414
+#, c-format
+msgid "Error: Unknown connection: %s."
+msgstr "Помилка: невідоме з’єднання: %s."
+
+#: ../cli/src/connections.c:1462 ../cli/src/devices.c:1206
+#: ../cli/src/devices.c:1749
+#, c-format
+msgid "Error: timeout value '%s' is not valid."
+msgstr "Помилка: значення часу очікування «%s» є некоректним."
+
+#: ../cli/src/connections.c:1467 ../cli/src/devices.c:976
+#: ../cli/src/devices.c:1320 ../cli/src/devices.c:1754
+#: ../cli/src/devices.c:2040
+#, c-format
+msgid "Unknown parameter: %s\n"
+msgstr "Невідомий параметр: %s\n"
+
+#: ../cli/src/connections.c:1496
+#, c-format
+msgid "Error: No suitable device found: %s."
+msgstr "Помилка: не знайдено відповідних пристроїв: %s."
+
+#: ../cli/src/connections.c:1498
+#, c-format
+msgid "Error: No suitable device found."
+msgstr "Помилка: не знайдено відповідних пристроїв."
+
+#: ../cli/src/connections.c:1617
+#, c-format
+msgid "Error: Connection deletion failed: %s"
+msgstr "Помилка: не вдалося вилучити з’єднання: %s"
+
+#: ../cli/src/connections.c:1687
+#, c-format
+msgid "Error: unknown connection: %s\n"
+msgstr "Помилка: невідоме з’єднання: %s\n"
+
+#. truncate trailing ", "
+#: ../cli/src/connections.c:1721
+#, c-format
+msgid "Error: cannot delete unknown connection(s): %s."
+msgstr "Помилка: не можна вилучати невідомі з’єднання: %s."
+
+#: ../cli/src/connections.c:1750
+#, c-format
+msgid ""
+"Error: 'configured' or 'active' command is expected for 'connection show'."
+msgstr ""
+"Помилка: разом з «connection show» мало бути вказано команду «configured» або "
+"«active»."
+
+#: ../cli/src/connections.c:1772
+#, c-format
+msgid "Error: '%s' is not valid 'connection' command."
+msgstr "Помилка: «%s» не є коректною командою набору «connection»."
+
+#: ../cli/src/connections.c:1837
+#, c-format
+msgid "Error: Could not get system settings."
+msgstr "Помилка: не вдалося отримати параметри системи."
+
+#: ../cli/src/connections.c:1847
+#, c-format
+msgid "Error: Can't obtain connections: settings service is not running."
+msgstr ""
+"Помилка: не вдалося отримати список з’єднань: служба параметрів не працює."
+
+#. 0
+#. 9
+#. 3
+#: ../cli/src/devices.c:71 ../cli/src/devices.c:110 ../cli/src/devices.c:204
+#: ../cli/src/devices.c:220
+msgid "DEVICE"
+msgstr "ПРИСТРІЙ"
+
+#. 0
+#: ../cli/src/devices.c:84
+msgid "CAPABILITIES"
+msgstr "МОЖЛИВОСТІ"
+
+#. 1
+#: ../cli/src/devices.c:85
+msgid "WIFI-PROPERTIES"
+msgstr "ПАРАМЕТРИ WIFI"
+
+#. 2
+#. 5
+#: ../cli/src/devices.c:86 ../cli/src/devices.c:170
+msgid "AP"
+msgstr "ТД"
+
+#. 3
+#: ../cli/src/devices.c:87
+msgid "WIRED-PROPERTIES"
+msgstr "ПАРАМЕТРИ WIRED"
+
+#. 4
+#: ../cli/src/devices.c:88
+msgid "WIMAX-PROPERTIES"
+msgstr "ПАРАМЕТРИ WIMAX"
+
+#. 5
+#. 0
+#: ../cli/src/devices.c:89 ../cli/src/devices.c:217
+msgid "NSP"
+msgstr "NSP"
+
+#. 6
+#: ../cli/src/devices.c:90
+msgid "IP4"
+msgstr "IP4"
+
+#. 7
+#: ../cli/src/devices.c:91
+msgid "DHCP4"
+msgstr "DHCP4"
+
+#. 8
+#: ../cli/src/devices.c:92
+msgid "IP6"
+msgstr "IP6"
+
+#. 9
+#: ../cli/src/devices.c:93
+msgid "DHCP6"
+msgstr "DHCP6"
+
+#. 10
+#: ../cli/src/devices.c:94
+msgid "BOND"
+msgstr "BOND"
+
+#. 11
+#: ../cli/src/devices.c:95
+msgid "VLAN"
+msgstr "VLAN"
+
+#. 12
+#: ../cli/src/devices.c:96
+msgid "CONNECTIONS"
+msgstr "З’ЄДНАННЯ"
+
+#. 2
+#: ../cli/src/devices.c:112
+msgid "VENDOR"
+msgstr "ВИРОБНИК"
+
+#. 3
+#: ../cli/src/devices.c:113
+msgid "PRODUCT"
+msgstr "ПРОДУКТ"
+
+#. 4
+#: ../cli/src/devices.c:114
+msgid "DRIVER"
+msgstr "ДРАЙВЕР"
+
+#. 5
+#: ../cli/src/devices.c:115
+msgid "DRIVER-VERSION"
+msgstr "ВЕРСІЯ-ДРАЙВЕРА"
+
+#. 6
+#: ../cli/src/devices.c:116
+msgid "FIRMWARE-VERSION"
+msgstr "ВЕРСІЯ-МІКРОПРОГРАМИ"
+
+#. 7
+#: ../cli/src/devices.c:117
+msgid "HWADDR"
+msgstr "АП.АДРЕСА"
+
+#. 9
+#: ../cli/src/devices.c:119
+msgid "REASON"
+msgstr "ПРИЧИНА"
+
+#. 10
+#: ../cli/src/devices.c:120
+msgid "UDI"
+msgstr "UDI"
+
+#. 11
+#: ../cli/src/devices.c:121
+msgid "IP-IFACE"
+msgstr "IP-IFACE"
+
+#. 12
+#: ../cli/src/devices.c:122
+msgid "NM-MANAGED"
+msgstr "КЕРОВАНЕ-NM"
+
+#. 14
+#: ../cli/src/devices.c:124
+msgid "FIRMWARE-MISSING"
+msgstr "ПОТРІБНИЙ-МІКРОКОД"
+
+#. 15
+#: ../cli/src/devices.c:125
+msgid "CONNECTION"
+msgstr "З’ЄДНАННЯ"
+
+#. 0
+#: ../cli/src/devices.c:135
+msgid "AVAILABLE-CONNECTION-PATHS"
+msgstr "ДОСТУПНІ-ШЛЯХИ-З’ЄДНАННЯ"
+
+#. 1
+#: ../cli/src/devices.c:136
+msgid "AVAILABLE-CONNECTIONS"
+msgstr "ДОСТУПНІ-З’ЄДНАННЯ"
+
+#. 0
+#: ../cli/src/devices.c:145
+msgid "CARRIER-DETECT"
+msgstr "ВИЗН.НОСІЯ"
+
+#. 1
+#: ../cli/src/devices.c:146
+msgid "SPEED"
+msgstr "ШВИДКІСТЬ"
+
+#. 0
+#: ../cli/src/devices.c:155
+msgid "CARRIER"
+msgstr "НОСІЙ"
+
+#. 0
+#: ../cli/src/devices.c:165
+msgid "WEP"
+msgstr "WEP"
+
+#. 1
+#: ../cli/src/devices.c:166
+msgid "WPA"
+msgstr "WPA"
+
+#. 2
+#: ../cli/src/devices.c:167
+msgid "WPA2"
+msgstr "WPA2"
+
+#. 3
+#: ../cli/src/devices.c:168
+msgid "TKIP"
+msgstr "TKIP"
+
+#. 4
+#: ../cli/src/devices.c:169
+msgid "CCMP"
+msgstr "CCMP"
+
+#. 6
+#: ../cli/src/devices.c:171
+msgid "ADHOC"
+msgstr "ADHOC"
+
+#. 0
+#: ../cli/src/devices.c:181
+msgid "CTR-FREQ"
+msgstr "CTR-FREQ"
+
+#. 1
+#: ../cli/src/devices.c:182
+msgid "RSSI"
+msgstr "RSSI"
+
+#. 2
+#: ../cli/src/devices.c:183
+msgid "CINR"
+msgstr "CINR"
+
+#. 3
+#: ../cli/src/devices.c:184
+msgid "TX-POW"
+msgstr "TX-POW"
+
+#. 4
+#: ../cli/src/devices.c:185
+msgid "BSID"
+msgstr "BSID"
+
+#. 0
+#: ../cli/src/devices.c:195
+msgid "SSID"
+msgstr "SSID"
+
+#. 1
+#: ../cli/src/devices.c:196
+msgid "BSSID"
+msgstr "BSSID"
+
+#. 2
+#: ../cli/src/devices.c:197
+msgid "MODE"
+msgstr "РЕЖИМ"
+
+#. 3
+#: ../cli/src/devices.c:198
+msgid "FREQ"
+msgstr "ЧАСТОТА"
+
+#. 4
+#: ../cli/src/devices.c:199
+msgid "RATE"
+msgstr "ШВИДКІСТЬ"
+
+#. 5
+#. 1
+#: ../cli/src/devices.c:200 ../cli/src/devices.c:218
+msgid "SIGNAL"
+msgstr "СИГНАЛ"
+
+#. 6
+#: ../cli/src/devices.c:201
+msgid "SECURITY"
+msgstr "ЗАХИСТ"
+
+#. 7
+#: ../cli/src/devices.c:202
+msgid "WPA-FLAGS"
+msgstr "ПРАПОРЦІ WPA"
+
+#. 8
+#: ../cli/src/devices.c:203
+msgid "RSN-FLAGS"
+msgstr "ПРАПОРЦІ RSN"
+
+#. 10
+#. 4
+#: ../cli/src/devices.c:205 ../cli/src/devices.c:221
+msgid "ACTIVE"
+msgstr "АКТИВНИЙ"
+
+#. 0
+#: ../cli/src/devices.c:233
+msgid "SLAVES"
+msgstr "SLAVES"
+
+#. 0
+#: ../cli/src/devices.c:242
+msgid "ID"
+msgstr "Ід"
+
+#: ../cli/src/devices.c:258
+#, c-format
+msgid ""
+"Usage: nmcli device { COMMAND | help }\n"
+"\n"
+"  COMMAND := { status | show | disconnect | wifi | wimax }\n"
+"\n"
+"  COMMAND := { status | show | disconnect | wifi }\n"
+"\n"
+"  status\n"
+"\n"
+"  show [<iface>]\n"
+"\n"
+"  disconnect <iface> [--nowait] [--timeout <timeout>]\n"
+"\n"
+"  wifi [list [iface <iface>] [bssid <BSSID>]]\n"
+"\n"
+"  wifi connect <(B)SSID> [password <password>] [wep-key-type key|phrase] "
+"[iface <iface>] [bssid <BSSID>] [name <name>]\n"
+"\n"
+"               [--private] [--nowait] [--timeout <timeout>]\n"
+"\n"
+"  wifi scan [[iface] <iface>]\n"
+"\n"
+"  wimax [list [iface <iface>] [nsp <name>]]\n"
+"\n"
+msgstr ""
+"Користування: nmcli пристрій { КОМАНДА | help }\n"
+"\n"
+"  КОМАНДА := { status | show | disconnect | wifi | wimax }\n"
+"\n"
+"  КОМАНДА := { status | show | disconnect | wifi }\n"
+"\n"
+"  status\n"
+"\n"
+"  show [ <інтерфейс>]\n"
+"\n"
+"  disconnect <інтерфейс> [--nowait] [--timeout <очікування>]\n"
+"\n"
+"  wifi [list [iface <інтерфейс>] [bssid <BSSID>]]\n"
+"\n"
+"  wifi connect <(B)SSID> [password <пароль>] [wep-key-type key|phrase] "
+"[iface <інтерфейс>] [bssid <BSSID>] [name <назва>]\n"
+"               [--private] [--nowait] [--timeout <очікування>]\n"
+"  wimax [list [iface <інтерфейс>] [nsp <назва>]]\n"
+"\n"
+
+#: ../cli/src/devices.c:361
+msgid "(none)"
+msgstr "(немає)"
+
+#: ../cli/src/devices.c:417
+#, c-format
+msgid "%u MHz"
+msgstr "%u МГц"
+
+#: ../cli/src/devices.c:418
+#, c-format
+msgid "%u MB/s"
+msgstr "%u МБ/с"
+
+#: ../cli/src/devices.c:427
+msgid "Encrypted: "
+msgstr "Зашифровано: "
+
+#: ../cli/src/devices.c:432
+msgid "WEP "
+msgstr "WEP "
+
+#: ../cli/src/devices.c:434
+msgid "WPA "
+msgstr "WPA "
+
+#: ../cli/src/devices.c:436
+msgid "WPA2 "
+msgstr "WPA2 "
+
+#: ../cli/src/devices.c:439
+msgid "Enterprise "
+msgstr "Enterprise "
+
+#: ../cli/src/devices.c:448
+msgid "Ad-Hoc"
+msgstr "Ad-Hoc"
+
+#: ../cli/src/devices.c:449
+msgid "Infrastructure"
+msgstr "Інфраструктура"
+
+#: ../cli/src/devices.c:485
+msgid "Home"
+msgstr "Домівка"
+
+#: ../cli/src/devices.c:488
+msgid "Partner"
+msgstr "Партнер"
+
+#: ../cli/src/devices.c:491
+msgid "Roaming"
+msgstr "Роумінг"
+
+#: ../cli/src/devices.c:563
+#, c-format
+msgid "Error: 'device show': %s"
+msgstr "Помилка: «device show»: %s"
+
+#: ../cli/src/devices.c:565
+#, c-format
+msgid "Error: 'device show': %s; allowed fields: %s"
+msgstr "Помилка: «device show»: %s; дозволені поля: %s"
+
+#: ../cli/src/devices.c:574
+msgid "Device details"
+msgstr "Дані щодо пристрою"
+
+#: ../cli/src/devices.c:621 ../cli/src/devices.c:624 ../cli/src/devices.c:1136
+msgid "(unknown)"
+msgstr "(невідомо)"
+
+#: ../cli/src/devices.c:633
+msgid "not connected"
+msgstr "не з’єднано"
+
+#: ../cli/src/devices.c:660
+#, c-format
+msgid "%u Mb/s"
+msgstr "%u Мб/с"
+
+#. Print header
+#. "WIRED-PROPERTIES"
+#: ../cli/src/devices.c:736
+msgid "on"
+msgstr "увімкн."
+
+#: ../cli/src/devices.c:736
+msgid "off"
+msgstr "вимкн."
+
+#: ../cli/src/devices.c:993
+#, c-format
+msgid "Error: 'device status': %s"
+msgstr "Помилка: «device status»: %s"
+
+#: ../cli/src/devices.c:995
+#, c-format
+msgid "Error: 'device status': %s; allowed fields: %s"
+msgstr "Помилка: «device status»: %s; дозволені поля: %s"
+
+#: ../cli/src/devices.c:1015
+msgid "Status of devices"
+msgstr "Стан пристрою"
+
+#: ../cli/src/devices.c:1041
+#, c-format
+msgid "Error: invalid extra argument '%s'."
+msgstr "Помилка: некоректний додатковий аргумент, «%s»."
+
+#: ../cli/src/devices.c:1069 ../cli/src/devices.c:1241
+#: ../cli/src/devices.c:1378 ../cli/src/devices.c:2097
+#, c-format
+msgid "Error: Device '%s' not found."
+msgstr "Помилка: не знайдено пристрій «%s»."
+
+#: ../cli/src/devices.c:1098
+#, c-format
+msgid "Success: Device '%s' successfully disconnected."
+msgstr "Виконано: пристрій «%s» успішно від’єднано."
+
+#: ../cli/src/devices.c:1133
+#, c-format
+msgid "Error: Device '%s' (%s) disconnecting failed: %s"
+msgstr "Помилка: невдала спроба від’єднання «%s» (%s): %s"
+
+#: ../cli/src/devices.c:1146
+#, c-format
+msgid "Device '%s' has been disconnected.\n"
+msgstr "Пристрій «%s» було від’єднано.\n"
+
+#: ../cli/src/devices.c:1178 ../cli/src/devices.c:1187
+#, c-format
+msgid "Error: No interface specified."
+msgstr "Помилка: мало бути вказано інтерфейс."
+
+#: ../cli/src/devices.c:1212
+#, c-format
+msgid "Error: unknown argument '%s'."
+msgstr "Помилка: невідомий аргумент, «%s»."
+
+#: ../cli/src/devices.c:1340
+#, c-format
+msgid "Error: 'device wifi': %s"
+msgstr "Помилка: «device wifi»: %s"
+
+#: ../cli/src/devices.c:1342
+#, c-format
+msgid "Error: 'device wifi': %s; allowed fields: %s"
+msgstr "Помилка: «device wifi»: %s; дозволені поля: %s"
+
+#: ../cli/src/devices.c:1362
+msgid "Wi-Fi scan list"
+msgstr "Список сканування Wi-Fi"
+
+#: ../cli/src/devices.c:1398 ../cli/src/devices.c:1452
+#, c-format
+msgid "Error: Access point with bssid '%s' not found."
+msgstr "Помилка: не знайдено точки доступу з bssid «%s»."
+
+#: ../cli/src/devices.c:1415 ../cli/src/devices.c:1793
+#: ../cli/src/devices.c:1955
+#, c-format
+msgid "Error: Device '%s' is not a Wi-Fi device."
+msgstr "Помилка: пристрій «%s» не є пристроєм Wi-Fi."
+
+#: ../cli/src/devices.c:1483 ../cli/src/devices.c:1529
+#, c-format
+msgid "Connection with UUID '%s' created and activated on device '%s'\n"
+msgstr "Створено і задіяно з’єднання з UUID «%s» на пристрої «%s»\n"
+
+#: ../cli/src/devices.c:1488
+#, c-format
+msgid "Error: Connection activation failed: (%d) %s."
+msgstr "Помилка: не вдалося активувати з’єднання: (%d) %s."
+
+#: ../cli/src/devices.c:1513
+#, c-format
+msgid "Error: Failed to add/activate new connection: (%d) %s"
+msgstr "Помилка: не вдалося додати або задіяти нове з’єднання: (%d) %s"
+
+#: ../cli/src/devices.c:1521
+#, c-format
+msgid "Error: Failed to add/activate new connection: Unknown error"
+msgstr ""
+"Помилка: не вдалося додати або задіяти нове з’єднання (невідома помилка)"
+
+#: ../cli/src/devices.c:1675
+#, c-format
+msgid "Error: SSID or BSSID are missing."
+msgstr "Помилка: не вистачає SSID або BSSID."
+
+#: ../cli/src/devices.c:1699
+#, c-format
+msgid "Error: bssid argument value '%s' is not a valid BSSID."
+msgstr "Помилка: значення параметра bssid, «%s», не є коректним BSSID."
+
+#: ../cli/src/devices.c:1723
+#, c-format
+msgid ""
+"Error: wep-key-type argument value '%s' is invalid, use 'key' or 'phrase'."
+msgstr ""
+"Помилка: значення параметра wep-key-type, «%s», є некоректним, слід "
+"використовувати «key» або «phrase»."
+
+#: ../cli/src/devices.c:1763
+#, c-format
+msgid "Error: BSSID to connect to (%s) differs from bssid argument (%s)."
+msgstr ""
+"Помилка: BSSID для з’єднання з (%s) відрізняється від параметра bssid (%s)."
+
+#: ../cli/src/devices.c:1769
+#, c-format
+msgid "Error: Parameter '%s' is neither SSID nor BSSID."
+msgstr "Помилка: параметр «%s» не дорівнює ні SSID, ні BSSID."
+
+#: ../cli/src/devices.c:1795 ../cli/src/devices.c:1957
+#, c-format
+msgid "Error: No Wi-Fi device found."
+msgstr "Помилка: не знайдено жодного пристрою Wi-Fi."
+
+#: ../cli/src/devices.c:1813
+#, c-format
+msgid "Error: No network with SSID '%s' found."
+msgstr "Помилка: не знайдено мережі з SSID «%s»."
+
+#: ../cli/src/devices.c:1815
+#, c-format
+msgid "Error: No access point with BSSID '%s' found."
+msgstr "Помилка: не знайдено точки доступу з BSSID «%s»."
+
+#: ../cli/src/devices.c:1983
+#, c-format
+msgid "Error: 'device wifi' command '%s' is not valid."
+msgstr "Помилка: команда «device wifi» «%s» є некоректною."
+
+#: ../cli/src/devices.c:2059
+#, c-format
+msgid "Error: 'device wimax': %s"
+msgstr "Помилка: «device wimax»: %s"
+
+#: ../cli/src/devices.c:2061
+#, c-format
+msgid "Error: 'device wimax': %s; allowed fields: %s"
+msgstr "Помилка: «device wimax»: %s; дозволені поля: %s"
+
+#: ../cli/src/devices.c:2081
+msgid "WiMAX NSP list"
+msgstr "Список WiMAX NSP"
+
+#: ../cli/src/devices.c:2117
+#, c-format
+msgid "Error: NSP with name '%s' not found."
+msgstr "Помилка: не знайдено NSP з назвою «%s»."
+
+#: ../cli/src/devices.c:2128
+#, c-format
+msgid "Error: Device '%s' is not a WiMAX device."
+msgstr "Помилка: пристрій «%s» не є пристроєм WiMAX."
+
+#: ../cli/src/devices.c:2159
+#, c-format
+msgid "Error: Access point with nsp '%s' not found."
+msgstr "Помилка: не знайдено точки доступу з nsp «%s»."
+
+#: ../cli/src/devices.c:2186
+#, c-format
+msgid "Error: 'device wimax' command '%s' is not valid."
+msgstr "Помилка: команда «device wimax» «%s» є некоректною."
+
+#: ../cli/src/devices.c:2239
+#, c-format
+msgid "Error: 'dev' command '%s' is not valid."
+msgstr "Помилка: команда «dev» «%s» є некоректною."
+
+#: ../cli/src/network-manager.c:37 ../cli/src/network-manager.c:67
+msgid "RUNNING"
+msgstr "ВИКОНУЄТЬСЯ"
+
+#. 0
+#: ../cli/src/network-manager.c:38 ../cli/src/network-manager.c:68
+msgid "VERSION"
+msgstr "ВЕРСІЯ"
+
+#. 2
+#: ../cli/src/network-manager.c:40
+msgid "NETWORKING"
+msgstr "РОБОТА У МЕРЕЖІ"
+
+#. 3
+#: ../cli/src/network-manager.c:41
+msgid "WIFI-HW"
+msgstr "WIFI-HW"
+
+#. 4
+#: ../cli/src/network-manager.c:42 ../cli/src/network-manager.c:72
+msgid "WIFI"
+msgstr "WIFI"
+
+#. 5
+#: ../cli/src/network-manager.c:43
+msgid "WWAN-HW"
+msgstr "WWAN-HW"
+
+#. 6
+#: ../cli/src/network-manager.c:44 ../cli/src/network-manager.c:74
+msgid "WWAN"
+msgstr "WWAN"
+
+#. 7
+#: ../cli/src/network-manager.c:45
+msgid "WIMAX-HW"
+msgstr "WIMAX-HW"
+
+#. 8
+#: ../cli/src/network-manager.c:46 ../cli/src/network-manager.c:76
+msgid "WIMAX"
+msgstr "WIMAX"
+
+#. 2
+#: ../cli/src/network-manager.c:70
+msgid "NET-ENABLED"
+msgstr "NET-ENABLED"
+
+#. 3
+#: ../cli/src/network-manager.c:71
+msgid "WIFI-HARDWARE"
+msgstr "ОБЛАДНАННЯ WIFI"
+
+#. 5
+#: ../cli/src/network-manager.c:73
+msgid "WWAN-HARDWARE"
+msgstr "ОБЛАДНАННЯ WWAN"
+
+#. 7
+#: ../cli/src/network-manager.c:75
+msgid "WIMAX-HARDWARE"
+msgstr "ОБЛАДНАННЯ WIMAX"
+
+#: ../cli/src/network-manager.c:94
+msgid "PERMISSION"
+msgstr "ДОСТУП"
+
+#. 0
+#: ../cli/src/network-manager.c:95
+msgid "VALUE"
+msgstr "ЗНАЧЕННЯ"
+
+#: ../cli/src/network-manager.c:103
+msgid "LEVEL"
+msgstr "РІВЕНЬ"
+
+#. 0
+#: ../cli/src/network-manager.c:104
+msgid "DOMAINS"
+msgstr "ДОМЕНИ"
+
+#: ../cli/src/network-manager.c:119
+#, c-format
+msgid ""
+"Usage: nmcli general { COMMAND | help }\n"
+"\n"
+"  COMMAND := { status | permissions | logging }\n"
+"\n"
+"  status\n"
+"\n"
+"  permissions\n"
+"\n"
+"  logging [level <log level>] [domains <log domains>]\n"
+"\n"
+msgstr ""
+"Користування: nmcli general { КОМАНДА | help }\n"
+"\n"
+"  КОМАНДА := { status | permissions | logging }\n"
+"\n"
+"  status\n"
+"\n"
+"  permissions\n"
+"\n"
+"  logging [level <рівень ведення журналу>] [domains <домени ведення журналу>"
+"]\n"
+"\n"
+
+#: ../cli/src/network-manager.c:131
+#, c-format
+msgid ""
+"Usage: nmcli networking { COMMAND | help }\n"
+"\n"
+"  COMMAND := { [ on | off ] }\n"
+"\n"
+msgstr ""
+"Користування: nmcli networking { КОМАНДА | help }\n"
+"\n"
+"  КОМАНДА := { [ on | off ] }\n"
+"\n"
+
+#: ../cli/src/network-manager.c:140
+#, c-format
+msgid ""
+"Usage: nmcli radio { COMMAND | help }\n"
+"\n"
+"  COMMAND := { all | wifi | wwan | wimax }\n"
+"\n"
+"  all | wifi | wwan | wimax [ on | off ]\n"
+"\n"
+"  COMMAND := { all | wifi | wwan }\n"
+"\n"
+"  all | wifi | wwan [ on | off ]\n"
+"\n"
+msgstr ""
+"Користування: nmcli radio { КОМАНДА | help }\n"
+"\n"
+"  КОМАНДА := { all | wifi | wwan | wimax }\n"
+"\n"
+"  all | wifi | wwan | wimax [ on | off ]\n"
+"\n"
+"  КОМАНДА := { all | wifi | wwan }\n"
+"\n"
+"  all | wifi | wwan [ on | off ]\n"
+"\n"
+
+#: ../cli/src/network-manager.c:163
+msgid "asleep"
+msgstr "приспаний"
+
+#: ../cli/src/network-manager.c:165
+msgid "connecting"
+msgstr "з’єднується"
+
+#: ../cli/src/network-manager.c:167
+msgid "connected (local only)"
+msgstr "з’єднується (локально)"
+
+#: ../cli/src/network-manager.c:169
+msgid "connected (site only)"
+msgstr "з’єднано (на вузлі)"
+
+#: ../cli/src/network-manager.c:173
+msgid "disconnecting"
+msgstr "роз’єднується"
+
+#: ../cli/src/network-manager.c:213
+#, c-format
+msgid "Error: %s"
+msgstr "Помилка: %s"
+
+#: ../cli/src/network-manager.c:215
+#, c-format
+msgid "Error: %s (allowed fields: %s)"
+msgstr "Помилка: %s (дозволені поля: %s)"
+
+#: ../cli/src/network-manager.c:229 ../cli/src/network-manager.c:230
+#: ../cli/src/network-manager.c:231 ../cli/src/network-manager.c:232
+#: ../cli/src/network-manager.c:233 ../cli/src/network-manager.c:235
+#: ../cli/src/network-manager.c:236 ../cli/src/network-manager.c:808
+#: ../cli/src/network-manager.c:863 ../cli/src/network-manager.c:901
+#: ../cli/src/network-manager.c:940
+msgid "enabled"
+msgstr "увімкнено"
+
+#: ../cli/src/network-manager.c:229 ../cli/src/network-manager.c:230
+#: ../cli/src/network-manager.c:231 ../cli/src/network-manager.c:232
+#: ../cli/src/network-manager.c:233 ../cli/src/network-manager.c:235
+#: ../cli/src/network-manager.c:236 ../cli/src/network-manager.c:808
+#: ../cli/src/network-manager.c:863 ../cli/src/network-manager.c:901
+#: ../cli/src/network-manager.c:940
+msgid "disabled"
+msgstr "вимкнено"
+
+#: ../cli/src/network-manager.c:249
+msgid "NetworkManager status"
+msgstr "Стан NetworkManager"
+
+#. Print header
+#: ../cli/src/network-manager.c:252
+msgid "running"
+msgstr "виконується"
+
+#: ../cli/src/network-manager.c:252
+msgid "not running"
+msgstr "не виконується"
+
+#: ../cli/src/network-manager.c:324
+msgid "auth"
+msgstr "розпізн"
+
+#: ../cli/src/network-manager.c:354
+#, c-format
+msgid "Error: 'general permissions': %s"
+msgstr "Помилка: «general permissions»: %s"
+
+#: ../cli/src/network-manager.c:356
+#, c-format
+msgid "Error: 'general permissions': %s; allowed fields: %s"
+msgstr "Помилка: «general permissions»: %s; дозволені поля: %s"
+
+#: ../cli/src/network-manager.c:372
+msgid "NetworkManager permissions"
+msgstr "Права доступу NetworkManager"
+
+#: ../cli/src/network-manager.c:411
+#, c-format
+msgid "Error: 'general logging': %s"
+msgstr "Помилка: «general logging»: %s"
+
+#: ../cli/src/network-manager.c:413
+#, c-format
+msgid "Error: 'general logging': %s; allowed fields: %s"
+msgstr "Помилка: «general logging»: %s; дозволені поля: %s"
+
+#: ../cli/src/network-manager.c:430
+msgid "NetworkManager logging"
+msgstr "Ведення журналу NetworkManager"
+
+#: ../cli/src/network-manager.c:452
+#, c-format
+msgid "Error: Couldn't connect to system bus: %s"
+msgstr ""
+"Помилка: не вдалося встановити з’єднання з системним каналом обміну даними: "
+"%s"
+
+#: ../cli/src/network-manager.c:463
+#, c-format
+msgid "Error: Couldn't create D-Bus object proxy."
+msgstr "Помилка: не вдалося створити проксі-об’єкт D-Bus."
+
+#: ../cli/src/network-manager.c:469
+#, c-format
+msgid "Error in sleep: %s"
+msgstr "Помилка у затримці: %s"
+
+#: ../cli/src/network-manager.c:552
+#, c-format
+msgid "Error: 'general' command '%s' is not valid."
+msgstr "Помилка: команда «general» «%s» є некоректною."
+
+#: ../cli/src/network-manager.c:571 ../cli/src/network-manager.c:795
+#: ../cli/src/network-manager.c:850 ../cli/src/network-manager.c:888
+#: ../cli/src/network-manager.c:927
+#, c-format
+msgid "Error: '--fields' value '%s' is not valid here (allowed fields: %s)"
+msgstr ""
+"Помилка: значення «--fields» «%s» не можна використовувати тут (дозволені "
+"поля: %s)"
+
+#: ../cli/src/network-manager.c:595
+#, c-format
+msgid "Error: invalid '%s' argument: '%s' (use on/off)."
+msgstr "Помилка: некоректний аргумент «%s»: «%s» (мало бути on/off)."
+
+#: ../cli/src/network-manager.c:612
+msgid "Networking"
+msgstr "Робота у мережі"
+
+#: ../cli/src/network-manager.c:624
+#, c-format
+msgid "Error: 'networking' command '%s' is not valid."
+msgstr "Помилка: команда «networking» «%s» є некоректною."
+
+#: ../cli/src/network-manager.c:649 ../cli/src/network-manager.c:662
+msgid "Radio switches"
+msgstr "Радіоперемикачі"
+
+#. no argument, show current WiFi state
+#: ../cli/src/network-manager.c:676
+msgid "Wi-Fi radio switch"
+msgstr "Перемикач Wi-Fi"
+
+#. no argument, show current WWAN (mobile broadband) state
+#: ../cli/src/network-manager.c:688
+msgid "WWAN radio switch"
+msgstr "Перемикач WWAN"
+
+#. no argument, show current WiMAX state
+#: ../cli/src/network-manager.c:701
+msgid "WiMAX radio switch"
+msgstr "Перемикач WiMAX"
+
+#: ../cli/src/network-manager.c:718
+#, c-format
+msgid "Error: 'radio' command '%s' is not valid."
+msgstr "Помилка: команда «radio» «%s» є некоректною."
+
+#: ../cli/src/network-manager.c:734
+#, c-format
+msgid ""
+"Usage: nmcli nm { COMMAND | help }\n"
+"\n"
+"  COMMAND := { status | permissions | enable | sleep | wifi | wwan | "
+"wimax }\n"
+"\n"
+"  COMMAND := { status | permissions | enable | sleep | wifi | wwan }\n"
+"\n"
+"  status\n"
+"  permissions\n"
+"  enable [true|false]\n"
+"  sleep [true|false]\n"
+"  wifi [on|off]\n"
+"  wwan [on|off]\n"
+"  wimax [on|off]\n"
+"\n"
+msgstr ""
+"Користування: nmcli nm { КОМАНДА | help }\n"
+"\n"
+"  КОМАНДА := { status | permissions | enable | sleep | wifi | wwan | "
+"wimax }\n"
+"\n"
+"  КОМАНДА := { status | permissions | enable | sleep | wifi | wwan }\n"
+"\n"
+"  status\n"
+"  permissions\n"
+"  enable [true|false]\n"
+"  sleep [true|false]\n"
+"  wifi [on|off]\n"
+"  wwan [on|off]\n"
+"  wimax [on|off]\n"
+"\n"
+
+#: ../cli/src/network-manager.c:803
+msgid "Networking enabled"
+msgstr "Мережу увімкнено"
+
+#: ../cli/src/network-manager.c:819
+#, c-format
+msgid "Error: invalid 'enable' parameter: '%s'; use 'true' or 'false'."
+msgstr ""
+"Помилка: некоректний параметр «enable»: «%s»; мало бути «true» або «false»."
+
+#: ../cli/src/network-manager.c:829
+#, c-format
+msgid "Error: Sleeping status is not exported by NetworkManager."
+msgstr "Помилка: стан присипляння не експортовано NetworkManager."
+
+#: ../cli/src/network-manager.c:837
+#, c-format
+msgid "Error: invalid 'sleep' parameter: '%s'; use 'true' or 'false'."
+msgstr ""
+"Помилка: некоректний параметр «sleep»: «%s»; мало бути «true» або «false»."
+
+#: ../cli/src/network-manager.c:858
+msgid "WiFi enabled"
+msgstr "WiFi увімкнено"
+
+#: ../cli/src/network-manager.c:874
+#, c-format
+msgid "Error: invalid 'wifi' parameter: '%s'."
+msgstr "Помилка: некоректний параметр «wifi»: «%s»."
+
+#: ../cli/src/network-manager.c:896
+msgid "WWAN enabled"
+msgstr "WWAN увімкнено"
+
+#: ../cli/src/network-manager.c:912
+#, c-format
+msgid "Error: invalid 'wwan' parameter: '%s'."
+msgstr "Помилка: некоректний параметр «wwan»: «%s»."
+
+#: ../cli/src/network-manager.c:935
+msgid "WiMAX enabled"
+msgstr "WiMAX увімкнено"
+
+#: ../cli/src/network-manager.c:951
+#, c-format
+msgid "Error: invalid 'wimax' parameter: '%s'."
+msgstr "Помилка: некоректний параметр «wimax»: «%s»."
+
+#: ../cli/src/network-manager.c:967
+#, c-format
+msgid "Error: 'nm' command '%s' is not valid."
+msgstr "Помилка: команда «nm» «%s» є некоректною."
+
+#: ../cli/src/nmcli.c:76
+#, c-format
+msgid ""
+"Usage: %s [OPTIONS] OBJECT { COMMAND | help }\n"
+"\n"
+"OPTIONS\n"
+"  -t[erse]                                   terse output\n"
+"  -p[retty]                                  pretty output\n"
+"  -m[ode] tabular|multiline                  output mode\n"
+"  -f[ields] <field1,field2,...>|all|common   specify fields to output\n"
+"  -e[scape] yes|no                           escape columns separators in "
+"values\n"
+"  -n[ocheck]                                 don't check nmcli and "
+"NetworkManager versions\n"
+"  -a[sk]                                     ask for missing parameters\n"
+"  -v[ersion]                                 show program version\n"
+"  -h[elp]                                    print this help\n"
+"\n"
+"OBJECT\n"
+"  g[eneral]       NetworkManager's general status and operations\n"
+"  n[etworking]    overall networking control\n"
+"  r[adio]         NetworkManager radio switches\n"
+"  c[onnection]    NetworkManager's connections\n"
+"  d[evice]        devices managed by NetworkManager\n"
+"\n"
+msgstr ""
+"Користування: %s [ПАРАМЕТРИ] ОБ’ЄКТ { КОМАНДА | help }\n"
+"\n"
+"ПАРАМЕТРИ\n"
+"  -t[erse]                                   скорочене виведення\n"
+"  -p[retty]                                  форматоване виведення\n"
+"  -m[ode] tabular|multiline                  режим виведення\n"
+"  -f[ields] <поле1,поле2,...>|all|common     вказати поля для виведення\n"
+"  -e[scape] yes|no                           вилучати роздільники стовпчиків "
+"у значеннях\n"
+"  -n[ocheck]                                 не перевіряти версії nmcli і "
+"NetworkManager\n"
+"  -a[sk]                                     просити вказати параметри, яких "
+"не вистачає\n"
+"  -v[ersion]                                 показати версію програми\n"
+"  -h[elp]                                    вивести цю довідку\n"
+"\n"
+"ОБ’ЄКТ\n"
+"  g[eneral]       загальний стан і дії NetworkManager\n"
+"  n[etworking]    загальне керування мережею\n"
+"  r[adio]         перемикачі радіозв’язку NetworkManager\n"
+"  c[onnection]    з’єднання NetworkManager\n"
+"  d[evice]        пристрої, якими керує NetworkManager\n"
+"\n"
+
+#: ../cli/src/nmcli.c:131
+#, c-format
+msgid "Error: Object '%s' is unknown, try 'nmcli help'."
+msgstr "Помилка: невідомий об’єкт «%s», спробуйте «nmcli help»."
+
+#: ../cli/src/nmcli.c:161
+#, c-format
+msgid "Error: Option '--terse' is specified the second time."
+msgstr "Помилка: параметр «--terse» вказано двічі."
+
+#: ../cli/src/nmcli.c:166
+#, c-format
+msgid "Error: Option '--terse' is mutually exclusive with '--pretty'."
+msgstr ""
+"Помилка: параметр «--terse» і «--pretty» не можна використовувати одночасно."
+
+#: ../cli/src/nmcli.c:174
+#, c-format
+msgid "Error: Option '--pretty' is specified the second time."
+msgstr "Помилка: параметр «--pretty» вказано двічі."
+
+#: ../cli/src/nmcli.c:179
+#, c-format
+msgid "Error: Option '--pretty' is mutually exclusive with '--terse'."
+msgstr ""
+"Помилка: параметр «--pretty» і «--terse» не можна використовувати одночасно"
+
+#: ../cli/src/nmcli.c:189 ../cli/src/nmcli.c:205
+#, c-format
+msgid "Error: missing argument for '%s' option."
+msgstr "Помилка: не вказано аргумент параметра «%s»."
+
+#: ../cli/src/nmcli.c:198 ../cli/src/nmcli.c:214
+#, c-format
+msgid "Error: '%s' is not valid argument for '%s' option."
+msgstr "Помилка: «%s» не є коректним аргументом «%s»."
+
+#: ../cli/src/nmcli.c:221
+#, c-format
+msgid "Error: fields for '%s' options are missing."
+msgstr "Помилка: не вказано полів для параметрів «%s»."
+
+#: ../cli/src/nmcli.c:231
+#, c-format
+msgid "nmcli tool, version %s\n"
+msgstr "інструмент nmcli, версія %s\n"
+
+#: ../cli/src/nmcli.c:237
+#, c-format
+msgid "Error: Option '%s' is unknown, try 'nmcli -help'."
+msgstr "Помилка: невідомий параметр «%s», спробуйте «nmcli -help»."
+
+#: ../cli/src/nmcli.c:256
+#, c-format
+msgid "Caught signal %d, shutting down..."
+msgstr "Отримано сигнал %d, завершення роботи…"
+
+#: ../cli/src/nmcli.c:281
+msgid "Error: Could not create NMClient object."
+msgstr "Помилка: не вдалося створити об’єкт NMClient."
+
+#: ../cli/src/nmcli.c:297
+msgid "Success"
+msgstr "Виконано"
+
+#: ../cli/src/settings.c:598
+#, c-format
+msgid "%d (hex-ascii-key)"
+msgstr "%d (16-ковий ASCII-ключ)"
+
+#: ../cli/src/settings.c:600
+#, c-format
+msgid "%d (104/128-bit passphrase)"
+msgstr "%d (104/128-бітовий пароль)"
+
+#: ../cli/src/settings.c:603 ../cli/src/settings.c:731
+#, c-format
+msgid "%d (unknown)"
+msgstr "%d (невідомо)"
+
+#: ../cli/src/settings.c:629
+msgid "0 (unknown)"
+msgstr "0 (невідомо)"
+
+#: ../cli/src/settings.c:635
+msgid "any, "
+msgstr "будь-який, "
+
+#: ../cli/src/settings.c:637
+msgid "900 MHz, "
+msgstr "900 МГц, "
+
+#: ../cli/src/settings.c:639
+msgid "1800 MHz, "
+msgstr "1800 МГц, "
+
+#: ../cli/src/settings.c:641
+msgid "1900 MHz, "
+msgstr "1900 МГц, "
+
+#: ../cli/src/settings.c:643
+msgid "850 MHz, "
+msgstr "800 МГц, "
+
+#: ../cli/src/settings.c:645
+msgid "WCDMA 3GPP UMTS 2100 MHz, "
+msgstr "WCDMA 3GPP UMTS 2100 МГц, "
+
+#: ../cli/src/settings.c:647
+msgid "WCDMA 3GPP UMTS 1800 MHz, "
+msgstr "WCDMA 3GPP UMTS 1800 МГц, "
+
+#: ../cli/src/settings.c:649
+msgid "WCDMA 3GPP UMTS 1700/2100 MHz, "
+msgstr "WCDMA 3GPP UMTS 1700/2100 МГц, "
+
+#: ../cli/src/settings.c:651
+msgid "WCDMA 3GPP UMTS 800 MHz, "
+msgstr "WCDMA 3GPP UMTS 800 МГц, "
+
+#: ../cli/src/settings.c:653
+msgid "WCDMA 3GPP UMTS 850 MHz, "
+msgstr "WCDMA 3GPP UMTS 850 МГц, "
+
+#: ../cli/src/settings.c:655
+msgid "WCDMA 3GPP UMTS 900 MHz, "
+msgstr "WCDMA 3GPP UMTS 900 МГц, "
+
+#: ../cli/src/settings.c:657
+msgid "WCDMA 3GPP UMTS 1700 MHz, "
+msgstr "WCDMA 3GPP UMTS 1700 МГц, "
+
+#: ../cli/src/settings.c:659
+msgid "WCDMA 3GPP UMTS 1900 MHz, "
+msgstr "WCDMA 3GPP UMTS 1900 МГц, "
+
+#: ../cli/src/settings.c:661
+msgid "WCDMA 3GPP UMTS 2600 MHz, "
+msgstr "WCDMA 3GPP UMTS 2600 МГц, "
+
+#: ../cli/src/settings.c:679
+msgid "0 (NONE)"
+msgstr "0 (НЕМАЄ)"
+
+#: ../cli/src/settings.c:685
+msgid "REORDER_HEADERS, "
+msgstr "ПЕРЕВПОРЯДКОВУВАННЯ_ЗАГОЛОВКІВ, "
+
+#: ../cli/src/settings.c:687
+msgid "GVRP, "
+msgstr "GVRP, "
+
+#: ../cli/src/settings.c:689
+msgid "LOOSE_BINDING, "
+msgstr "ШИРОКЕ_ПРИВ’ЯЗУВАННЯ, "
+
+#: ../cli/src/settings.c:725
+#, c-format
+msgid "%d (disabled)"
+msgstr "%d (вимкнено)"
+
+#: ../cli/src/settings.c:727
+#, c-format
+msgid "%d (enabled, prefer public IP)"
+msgstr "%d (увімкнено, перевага відкритого IP)"
+
+#: ../cli/src/settings.c:729
+#, c-format
+msgid "%d (enabled, prefer temporary IP)"
+msgstr "%d (увімкнено, перевага тимчасового IP)"
+
+#: ../cli/src/settings.c:741
+msgid "0 (none)"
+msgstr "0 (немає)"
+
+#: ../cli/src/settings.c:747
+msgid "agent-owned, "
+msgstr ", власником є агент, "
+
+#: ../cli/src/settings.c:749
+msgid "not saved, "
+msgstr "не збережено, "
+
+#: ../cli/src/settings.c:751
+msgid "not required, "
+msgstr "не є обов’язковим, "
+
+#: ../cli/src/settings.c:1064 ../cli/src/settings.c:1232
+#: ../cli/src/settings.c:1273
+msgid "auto"
+msgstr "авто"
+
+#: ../cli/src/utils.c:96
+#, c-format
+msgid "Error: value for '%s' argument is required."
+msgstr "Помилка: слід вказати значення «%s» аргументу."
+
+#: ../cli/src/utils.c:121
+#, c-format
+msgid "Error: Argument '%s' was expected, but '%s' provided."
+msgstr "Помилка: мало бути вказано аргумент «%s», втім вказано аргумент «%s»."
+
+#: ../cli/src/utils.c:124
+#, c-format
+msgid "Error: Unexpected argument '%s'"
+msgstr "Помилка: неочікуваний аргумент «%s»."
+
+#: ../cli/src/utils.c:179
+#, c-format
+msgid "Error converting IP4 address '0x%X' to text form"
+msgstr ""
+"Помилка під час спроби перетворення адреси IP4 «0x%X» у текстовий формат"
+
+#: ../cli/src/utils.c:207
+#, c-format
+msgid "Error converting IP6 address '%s' to text form"
+msgstr "Помилка під час спроби перетворення адреси IP6 «%s» у текстовий формат"
+
+#: ../cli/src/utils.c:369
+#, c-format
+msgid "field '%s' has to be alone"
+msgstr "поле «%s» має бути єдиним"
+
+#: ../cli/src/utils.c:372
+#, c-format
+msgid "invalid field '%s'"
+msgstr "некоректне поле «%s»"
+
+#: ../cli/src/utils.c:391
+msgid "Option '--terse' requires specifying '--fields'"
+msgstr "Використання параметра «--terse» потребує визначення «--fields»"
+
+#: ../cli/src/utils.c:395
+#, c-format
+msgid "Option '--terse' requires specific '--fields' option values , not '%s'"
+msgstr ""
+"Параметр «--terse» потребує певних значень параметра «--fields», а не «%s»"
+
+#: ../cli/src/utils.c:604
+#, c-format
+msgid ""
+"Warning: nmcli (%s) and NetworkManager (%s) versions don't match. Use --"
+"nocheck to suppress the warning.\n"
+msgstr ""
+"Увага: версії nmcli (%s) і NetworkManager (%s) не збігаються. Скористайтеся "
+"параметром --nocheck для вимикання цього попередження.\n"
+
+#: ../cli/src/utils.c:613
+#, c-format
+msgid ""
+"Error: nmcli (%s) and NetworkManager (%s) versions don't match. Force "
+"execution using --nocheck, but the results are unpredictable."
+msgstr ""
+"Помилка: версії nmcli (%s) і NetworkManager (%s) не збігаються. Для запуску "
+"у примусовому режимі скористайтеся параметром --nocheck, але результати "
+"можуть бути непередбачуваними.\n"
+"."
+
+#: ../libnm-util/crypto.c:133
+#, c-format
+msgid "PEM key file had no end tag '%s'."
+msgstr "У файлі ключа PEM не міститься завершального теґу «%s»."
+
+#: ../libnm-util/crypto.c:146
+#, c-format
+msgid "Doesn't look like a PEM private key file."
+msgstr "Ймовірно, цей файл не є файлом закритого ключа PEM."
+
+#: ../libnm-util/crypto.c:163
+#, c-format
+msgid "Malformed PEM file: Proc-Type was not first tag."
+msgstr "Помилкове форматування PEM: Proc-Type не є першим теґом."
+
+#: ../libnm-util/crypto.c:171
+#, c-format
+msgid "Malformed PEM file: unknown Proc-Type tag '%s'."
+msgstr "Помилкове форматування PEM: невідомий теґ Proc-Type «%s»."
+
+#: ../libnm-util/crypto.c:181
+#, c-format
+msgid "Malformed PEM file: DEK-Info was not the second tag."
+msgstr "Помилкове форматування PEM: DEK-Info не є другим теґом."
+
+#: ../libnm-util/crypto.c:192
+#, c-format
+msgid "Malformed PEM file: no IV found in DEK-Info tag."
+msgstr "Помилкове форматування файла PEM: не знайдено теґу DEK-Info у ВІ."
+
+#: ../libnm-util/crypto.c:199
+#, c-format
+msgid "Malformed PEM file: invalid format of IV in DEK-Info tag."
+msgstr ""
+"Помилкове форматування файла PEM: некоректне форматування ВІ у тезі DEK-Info."
+
+#: ../libnm-util/crypto.c:212
+#, c-format
+msgid "Malformed PEM file: unknown private key cipher '%s'."
+msgstr ""
+"Помилкове форматування файла PEM: невідоме шифрування закритого ключа «%s»."
+
+#: ../libnm-util/crypto.c:231
+#, c-format
+msgid "Could not decode private key."
+msgstr "Не вдалося декодувати закритий ключ."
+
+#: ../libnm-util/crypto.c:283
+msgid "Failed to find expected PKCS#8 start tag."
+msgstr "Не вдалося знайти очікуваний початковий теґ PKCS#8."
+
+#: ../libnm-util/crypto.c:291
+#, c-format
+msgid "Failed to find expected PKCS#8 end tag '%s'."
+msgstr "Не вдалося знайти очікуваний завершальний теґ PKCS#8 «%s»."
+
+#: ../libnm-util/crypto.c:310
+msgid "Failed to decode PKCS#8 private key."
+msgstr "Не вдалося декодувати закритий ключ PKCS#8."
+
+#: ../libnm-util/crypto.c:352
+#, c-format
+msgid "IV must be an even number of bytes in length."
+msgstr "Довжина ВІ має дорівнювати парній кількості байтів."
+
+#: ../libnm-util/crypto.c:366
+#, c-format
+msgid "IV contains non-hexadecimal digits."
+msgstr "ВІ містить не шістнадцяткові цифри."
+
+#: ../libnm-util/crypto.c:404 ../libnm-util/crypto_gnutls.c:147
+#: ../libnm-util/crypto_gnutls.c:259 ../libnm-util/crypto_nss.c:167
+#: ../libnm-util/crypto_nss.c:326
+#, c-format
+msgid "Private key cipher '%s' was unknown."
+msgstr "Невідоме шифрування закритого ключа «%s»."
+
+#: ../libnm-util/crypto.c:511
+#, c-format
+msgid "Unable to determine private key type."
+msgstr "Не вдалося визначити тип закритого ключа."
+
+#: ../libnm-util/crypto.c:566
+#, c-format
+msgid "PEM certificate had no start tag '%s'."
+msgstr "Сертифікат PEM не містить початкового теґу «%s»."
+
+#: ../libnm-util/crypto.c:575
+#, c-format
+msgid "PEM certificate had no end tag '%s'."
+msgstr "Сертифікат PEM не містить завершального теґу «%s»."
+
+#: ../libnm-util/crypto.c:593
+#, c-format
+msgid "Failed to decode certificate."
+msgstr "Не вдалося декодувати сертифікат."
+
+#: ../libnm-util/crypto_gnutls.c:50
+msgid "Failed to initialize the crypto engine."
+msgstr "Не вдалося ініціалізувати рушій шифрування."
+
+#: ../libnm-util/crypto_gnutls.c:92
+#, c-format
+msgid "Failed to initialize the MD5 engine: %s / %s."
+msgstr "Не вдалося ініціалізувати рушій обчислення MD5: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:155
+#, c-format
+msgid "Invalid IV length (must be at least %zd)."
+msgstr "Некоректна довжина ВІ (має бути принаймні %zd)."
+
+#: ../libnm-util/crypto_gnutls.c:166
+#, c-format
+msgid "Failed to initialize the decryption cipher context: %s / %s."
+msgstr "Не вдалося ініціалізувати контекст шифру декодування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:175
+#, c-format
+msgid "Failed to set symmetric key for decryption: %s / %s."
+msgstr "Не вдалося встановити симетричний ключ для розшифрування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:184
+#, c-format
+msgid "Failed to set IV for decryption: %s / %s."
+msgstr "Не вдалося встановити ВІ для розшифрування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:193
+#, c-format
+msgid "Failed to decrypt the private key: %s / %s."
+msgstr "Не вдалося розшифрувати закритий ключ: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:203 ../libnm-util/crypto_nss.c:257
+#, c-format
+msgid "Failed to decrypt the private key: unexpected padding length."
+msgstr "Не вдалося розшифрувати закритий ключ: неочікувана довжина доповнення."
+
+#: ../libnm-util/crypto_gnutls.c:214 ../libnm-util/crypto_nss.c:268
+#, c-format
+msgid "Failed to decrypt the private key."
+msgstr "Не вдалося розшифрувати закритий ключ."
+
+#: ../libnm-util/crypto_gnutls.c:281
+#, c-format
+msgid "Failed to initialize the encryption cipher context: %s / %s."
+msgstr "Не вдалося ініціалізувати контекст шифру кодування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:290
+#, c-format
+msgid "Failed to set symmetric key for encryption: %s / %s."
+msgstr "Не вдалося встановити симетричний ключ для шифрування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:300
+#, c-format
+msgid "Failed to set IV for encryption: %s / %s."
+msgstr "Не вдалося встановити ВІ для шифрування: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:309
+#, c-format
+msgid "Failed to encrypt the data: %s / %s."
+msgstr "Не вдалося зашифрувати дані: %s / %s."
+
+#: ../libnm-util/crypto_gnutls.c:349
+#, c-format
+msgid "Error initializing certificate data: %s"
+msgstr "Помилка під час спроби ініціалізації даних сертифіката: %s"
+
+#: ../libnm-util/crypto_gnutls.c:371
+#, c-format
+msgid "Couldn't decode certificate: %s"
+msgstr "Не вдалося декодувати сертифікат: %s"
+
+#: ../libnm-util/crypto_gnutls.c:395
+#, c-format
+msgid "Couldn't initialize PKCS#12 decoder: %s"
+msgstr "Не вдалося ініціалізувати інструмент розшифрування PKCS#12: %s"
+
+#: ../libnm-util/crypto_gnutls.c:408
+#, c-format
+msgid "Couldn't decode PKCS#12 file: %s"
+msgstr "Не вдалося розшифрувати файл PKCS#12: %s"
+
+#: ../libnm-util/crypto_gnutls.c:420
+#, c-format
+msgid "Couldn't verify PKCS#12 file: %s"
+msgstr "Не вдалося перевірити файл PKCS#12: %s"
+
+#: ../libnm-util/crypto_gnutls.c:448
+#, c-format
+msgid "Couldn't initialize PKCS#8 decoder: %s"
+msgstr "Не вдалося ініціалізувати інструмент розшифрування PKCS#8: %s"
+
+#: ../libnm-util/crypto_gnutls.c:471
+#, c-format
+msgid "Couldn't decode PKCS#8 file: %s"
+msgstr "Не вдалося розшифрувати файл PKCS#8: %s"
+
+#: ../libnm-util/crypto_nss.c:56
+#, c-format
+msgid "Failed to initialize the crypto engine: %d."
+msgstr "Не вдалося ініціалізувати рушій шифрування: %d."
+
+#: ../libnm-util/crypto_nss.c:107
+#, c-format
+msgid "Failed to initialize the MD5 context: %d."
+msgstr "Не вдалося ініціалізувати контекст MD5: %d."
+
+#: ../libnm-util/crypto_nss.c:175
+#, c-format
+msgid "Invalid IV length (must be at least %d)."
+msgstr "Некоректна довжина ВІ (має бути принаймні %d)."
+
+#: ../libnm-util/crypto_nss.c:186
+#, c-format
+msgid "Failed to initialize the decryption cipher slot."
+msgstr "Не вдалося ініціалізувати слот шифру декодування."
+
+#: ../libnm-util/crypto_nss.c:196
+#, c-format
+msgid "Failed to set symmetric key for decryption."
+msgstr "Не вдалося встановити симетричний ключ для розшифрування."
+
+#: ../libnm-util/crypto_nss.c:206
+#, c-format
+msgid "Failed to set IV for decryption."
+msgstr "Не вдалося встановити ВІ для розшифрування."
+
+#: ../libnm-util/crypto_nss.c:214
+#, c-format
+msgid "Failed to initialize the decryption context."
+msgstr "Не вдалося ініціалізувати контекст розшифрування."
+
+#: ../libnm-util/crypto_nss.c:227
+#, c-format
+msgid "Failed to decrypt the private key: %d."
+msgstr "Не вдалося розшифрувати закритий ключ: %d."
+
+#: ../libnm-util/crypto_nss.c:235
+#, c-format
+msgid "Failed to decrypt the private key: decrypted data too large."
+msgstr ""
+"Не вдалося розшифрувати закритий ключ: розшифровані дані є занадто об’ємними."
+
+#: ../libnm-util/crypto_nss.c:246
+#, c-format
+msgid "Failed to finalize decryption of the private key: %d."
+msgstr "Не вдалося завершити розшифрування закритого ключа: %d."
+
+#: ../libnm-util/crypto_nss.c:348
+#, c-format
+msgid "Failed to initialize the encryption cipher slot."
+msgstr "Не вдалося ініціалізувати слот шифру розкодування."
+
+#: ../libnm-util/crypto_nss.c:356
+#, c-format
+msgid "Failed to set symmetric key for encryption."
+msgstr "Не вдалося встановити симетричний ключ для шифрування."
+
+#: ../libnm-util/crypto_nss.c:364
+#, c-format
+msgid "Failed to set IV for encryption."
+msgstr "Не вдалося встановити вектор ініціалізації для шифрування."
+
+#: ../libnm-util/crypto_nss.c:372
+#, c-format
+msgid "Failed to initialize the encryption context."
+msgstr "Не вдалося ініціалізувати контекст шифрування."
+
+#: ../libnm-util/crypto_nss.c:380
+#, c-format
+msgid "Failed to encrypt: %d."
+msgstr "Не вдалося зашифрувати: %d."
+
+#: ../libnm-util/crypto_nss.c:388
+#, c-format
+msgid "Unexpected amount of data after encrypting."
+msgstr "Неочікуваний об’єм даних після шифрування."
+
+#: ../libnm-util/crypto_nss.c:431
+#, c-format
+msgid "Couldn't decode certificate: %d"
+msgstr "Не вдалося розшифрувати сертифікат: %d"
+
+#: ../libnm-util/crypto_nss.c:466
+#, c-format
+msgid "Couldn't convert password to UCS2: %d"
+msgstr "Не вдалося змінити кодування пароля на UCS2: %d"
+
+#: ../libnm-util/crypto_nss.c:494
+#, c-format
+msgid "Couldn't initialize PKCS#12 decoder: %d"
+msgstr "Не вдалося ініціалізувати інструмент розшифрування PKCS#12: %d"
+
+#: ../libnm-util/crypto_nss.c:503
+#, c-format
+msgid "Couldn't decode PKCS#12 file: %d"
+msgstr "Не вдалося розшифрувати файл PKCS#12: %d"
+
+#: ../libnm-util/crypto_nss.c:512
+#, c-format
+msgid "Couldn't verify PKCS#12 file: %d"
+msgstr "Не вдалося перевірити файл PKCS#12: %d"
+
+#: ../libnm-util/crypto_nss.c:556
+msgid "Could not generate random data."
+msgstr "Не вдалося створити псевдовипадкові дані."
+
+#: ../libnm-util/nm-setting-8021x.c:2119 ../libnm-util/nm-setting-8021x.c:2136
+#: ../libnm-util/nm-setting-8021x.c:2177 ../libnm-util/nm-setting-8021x.c:2194
+#: ../libnm-util/nm-setting-8021x.c:2246 ../libnm-util/nm-setting-8021x.c:2258
+#: ../libnm-util/nm-setting-8021x.c:2276 ../libnm-util/nm-setting-8021x.c:2288
+#: ../libnm-util/nm-setting-8021x.c:2312 ../libnm-util/nm-setting-8021x.c:2487
+#: ../libnm-util/nm-setting-adsl.c:212
+#: ../libnm-util/nm-setting-bluetooth.c:153
+#: ../libnm-util/nm-setting-bluetooth.c:171
+#: ../libnm-util/nm-setting-bond.c:368 ../libnm-util/nm-setting-bridge.c:268
+#: ../libnm-util/nm-setting-cdma.c:163
+#: ../libnm-util/nm-setting-connection.c:674
+#: ../libnm-util/nm-setting-connection.c:690
+#: ../libnm-util/nm-setting-connection.c:743
+#: ../libnm-util/nm-setting-ip4-config.c:693
+#: ../libnm-util/nm-setting-ip4-config.c:703
+#: ../libnm-util/nm-setting-ip6-config.c:675
+#: ../libnm-util/nm-setting-ip6-config.c:685
+#: ../libnm-util/nm-setting-ip6-config.c:738
+#: ../libnm-util/nm-setting-olpc-mesh.c:128
+#: ../libnm-util/nm-setting-pppoe.c:165 ../libnm-util/nm-setting-vpn.c:394
+#: ../libnm-util/nm-setting-wimax.c:137
+#: ../libnm-util/nm-setting-wireless-security.c:792
+#: ../libnm-util/nm-setting-wireless.c:610
+msgid "property is missing"
+msgstr "не вказано властивості"
+
+#: ../libnm-util/nm-setting-8021x.c:2126 ../libnm-util/nm-setting-8021x.c:2143
+#: ../libnm-util/nm-setting-8021x.c:2184 ../libnm-util/nm-setting-8021x.c:2201
+#: ../libnm-util/nm-setting-8021x.c:2252 ../libnm-util/nm-setting-8021x.c:2264
+#: ../libnm-util/nm-setting-8021x.c:2282 ../libnm-util/nm-setting-8021x.c:2294
+#: ../libnm-util/nm-setting-8021x.c:2318 ../libnm-util/nm-setting-adsl.c:219
+#: ../libnm-util/nm-setting-adsl.c:228 ../libnm-util/nm-setting-cdma.c:179
+#: ../libnm-util/nm-setting-cdma.c:188
+#: ../libnm-util/nm-setting-connection.c:681
+#: ../libnm-util/nm-setting-connection.c:750
+#: ../libnm-util/nm-setting-gsm.c:280 ../libnm-util/nm-setting-gsm.c:337
+#: ../libnm-util/nm-setting-gsm.c:346
+#: ../libnm-util/nm-setting-ip4-config.c:754
+#: ../libnm-util/nm-setting-ip4-config.c:763
+#: ../libnm-util/nm-setting-pppoe.c:172 ../libnm-util/nm-setting-pppoe.c:181
+#: ../libnm-util/nm-setting-vpn.c:403 ../libnm-util/nm-setting-vpn.c:413
+#: ../libnm-util/nm-setting-wimax.c:146
+#: ../libnm-util/nm-setting-wireless-security.c:822
+#: ../libnm-util/nm-setting-wireless-security.c:830
+#: ../libnm-util/nm-setting-wireless-security.c:854
+msgid "property is empty"
+msgstr "властивість є порожньою"
+
+#: ../libnm-util/nm-setting-8021x.c:2154 ../libnm-util/nm-setting-8021x.c:2166
+#: ../libnm-util/nm-setting-8021x.c:2212 ../libnm-util/nm-setting-8021x.c:2224
+#, c-format
+msgid "has to match '%s' property for PKCS#12"
+msgstr "має відповідати властивості «%s» для PKCS#12"
+
+#: ../libnm-util/nm-setting-8021x.c:2462 ../libnm-util/nm-setting-8021x.c:2496
+#: ../libnm-util/nm-setting-bluetooth.c:162
+#: ../libnm-util/nm-setting-bond.c:377
+#: ../libnm-util/nm-setting-infiniband.c:149
+#: ../libnm-util/nm-setting-infiniband.c:164
+#: ../libnm-util/nm-setting-ip4-config.c:745
+#: ../libnm-util/nm-setting-ip6-config.c:729
+#: ../libnm-util/nm-setting-olpc-mesh.c:156
+#: ../libnm-util/nm-setting-wimax.c:155 ../libnm-util/nm-setting-wired.c:501
+#: ../libnm-util/nm-setting-wired.c:510
+#: ../libnm-util/nm-setting-wireless-security.c:873
+#: ../libnm-util/nm-setting-wireless-security.c:882
+#: ../libnm-util/nm-setting-wireless-security.c:890
+#: ../libnm-util/nm-setting-wireless-security.c:898
+#: ../libnm-util/nm-setting-wireless-security.c:906
+#: ../libnm-util/nm-setting-wireless-security.c:915
+#: ../libnm-util/nm-setting-wireless-security.c:924
+#: ../libnm-util/nm-setting-wireless-security.c:933
+#: ../libnm-util/nm-setting-wireless-security.c:969
+#: ../libnm-util/nm-setting-wireless-security.c:979
+#: ../libnm-util/nm-setting-wireless.c:670
+#: ../libnm-util/nm-setting-wireless.c:679
+#: ../libnm-util/nm-setting-wireless.c:688
+msgid "property is invalid"
+msgstr "властивість є некоректною"
+
+#: ../libnm-util/nm-setting-8021x.c:2521 ../libnm-util/nm-setting-8021x.c:2531
+#: ../libnm-util/nm-setting-8021x.c:2541 ../libnm-util/nm-setting-8021x.c:2551
+#: ../libnm-util/nm-setting-8021x.c:2561 ../libnm-util/nm-setting-adsl.c:239
+#: ../libnm-util/nm-setting-adsl.c:250
+#: ../libnm-util/nm-setting-bluetooth.c:179
+#: ../libnm-util/nm-setting-wireless-security.c:801
+#, c-format
+msgid "'%s' is not a valid value for the property"
+msgstr "«%s» не є коректним значенням властивості"
+
+#: ../libnm-util/nm-setting-bluetooth.c:201
+#, c-format
+msgid "requires '%s' or '%s' setting"
+msgstr "слід вказати параметр «%s» або «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:391
+#, c-format
+msgid "invalid option '%s' or its value '%s'"
+msgstr "некоректний параметр «%s» або його значення «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:410
+#, c-format
+msgid "only one of '%s' and '%s' can be set"
+msgstr "можна встановлювати лише одне з «%s» або «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:421
+#, c-format
+msgid "setting '%s' is required"
+msgstr "слід визначити параметр «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:430
+#, c-format
+msgid "'%s' is not a valid value for '%s'"
+msgstr "«%s» не є коректним значенням «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:443
+#, c-format
+msgid "'%s=%s' is incompatible with '%s > 0'"
+msgstr "«%s=%s» є несумісним з «%s > 0»"
+
+#: ../libnm-util/nm-setting-bond.c:454
+#, c-format
+msgid "'%s=%s' is not a valid configuration for '%s'"
+msgstr "«%s=%s» не є коректним налаштуванням для «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:467 ../libnm-util/nm-setting-bond.c:476
+#: ../libnm-util/nm-setting-bond.c:496 ../libnm-util/nm-setting-bond.c:532
+#, c-format
+msgid "'%s' option requires setting '%s' option"
+msgstr "використання параметра «%s» вимагає встановлення параметра «%s»"
+
+#: ../libnm-util/nm-setting-bond.c:508
+#, c-format
+msgid "'%s' option is empty"
+msgstr "параметр «%s» є порожнім"
+
+#: ../libnm-util/nm-setting-bond.c:520
+#, c-format
+msgid "'%s' is not a valid IPv4 address for '%s' option"
+msgstr "«%s» не є припустимою адресою IPv4 для параметра «%s»"
+
+#: ../libnm-util/nm-setting-bridge-port.c:155
+#: ../libnm-util/nm-setting-bridge-port.c:165
+#, c-format
+msgid "'%d' is not a valid value for the property (should be <= %d)"
+msgstr "«%d» є некоректним значенням властивості (має бути <= %d)"
+
+#: ../libnm-util/nm-setting-bridge.c:251
+#, c-format
+msgid "value '%d' is out of range <%d-%d>"
+msgstr "значення «%d» лежить поза діапазоном <%d-%d>"
+
+#: ../libnm-util/nm-setting-bridge.c:277
+#: ../libnm-util/nm-setting-connection.c:732
+#: ../libnm-util/nm-setting-vlan.c:468
+#, c-format
+msgid "'%s' is not a valid interface name"
+msgstr "«%s» не є коректною назвою інтерфейсу"
+
+#: ../libnm-util/nm-setting-cdma.c:170
+msgid "property is empty'"
+msgstr "властивість є порожньою"
+
+#: ../libnm-util/nm-setting-connection.c:697
+#, c-format
+msgid "'%s' is not a valid UUID"
+msgstr "«%s» не є коректним UUID"
+
+#: ../libnm-util/nm-setting-connection.c:716
+#, c-format
+msgid "'%s' doesn't match the virtual interface name '%s'"
+msgstr "«%s» не відповідає назві віртуального інтерфейсу «%s»"
+
+#: ../libnm-util/nm-setting-connection.c:760
+#, c-format
+msgid "requires presence of '%s' setting in the connection"
+msgstr "потребує визначення «%s» у параметрах з’єднання"
+
+#: ../libnm-util/nm-setting-connection.c:784
+msgid "IPv4 configuration is not allowed for bonding slave"
+msgstr "Налаштування IPv4 для підлеглого пристрою у зв’язку неможливе"
+
+#: ../libnm-util/nm-setting-connection.c:801
+msgid "IPv6 configuration is not allowed for bonding slave"
+msgstr "Налаштування IPv6 для підлеглого пристрою у зв’язку неможливе"
+
+#: ../libnm-util/nm-setting-gsm.c:293
+#, c-format
+msgid "property value '%s' is empty or too long (>64)"
+msgstr "значення властивості, «%s», є порожнім або надто довгим (>64)"
+
+#: ../libnm-util/nm-setting-gsm.c:325
+#, c-format
+msgid "'%s' contains invalid char(s) (use [A-Za-z._-])"
+msgstr "«%s» містить некоректні символи (слід використовувати [A-Za-z._-])"
+
+#: ../libnm-util/nm-setting-gsm.c:360
+#, c-format
+msgid "'%s' length is invalid (should be 5 or 6 digits)"
+msgstr "довжина «%s» є некоректною (має бути 5 або 6 цифр)"
+
+#: ../libnm-util/nm-setting-gsm.c:371
+#, c-format
+msgid "'%s' is not a number"
+msgstr "«%s» не є числом"
+
+#: ../libnm-util/nm-setting-ip4-config.c:714
+#: ../libnm-util/nm-setting-ip4-config.c:724
+#: ../libnm-util/nm-setting-ip4-config.c:734
+#: ../libnm-util/nm-setting-ip6-config.c:697
+#: ../libnm-util/nm-setting-ip6-config.c:707
+#: ../libnm-util/nm-setting-ip6-config.c:717
+#, c-format
+msgid "this property is not allowed for '%s=%s'"
+msgstr "цю властивість не можна застосовувати до «%s=%s»"
+
+#: ../libnm-util/nm-setting-ip4-config.c:777
+#, c-format
+msgid "%d. IPv4 address is invalid"
+msgstr "%d. Адреса IPv4 є некоректною"
+
+#: ../libnm-util/nm-setting-ip4-config.c:787
+#, c-format
+msgid "%d. IPv4 address has invalid prefix"
+msgstr "%d. Адреса IPv4 має некоректний префікс"
+
+#: ../libnm-util/nm-setting-ip4-config.c:803
+#, c-format
+msgid "%d. route is invalid"
+msgstr "%d. Некоректний маршрут"
+
+#: ../libnm-util/nm-setting-ip4-config.c:813
+#, c-format
+msgid "%d. route has invalid prefix"
+msgstr "%d. Маршрут має некоректний префікс"
+
+#: ../libnm-util/nm-setting-ip6-config.c:696
+#, c-format
+msgid "'%s' not allowed for %s=%s"
+msgstr "«%s» не можна використовувати для %s=%s"
+
+#: ../libnm-util/nm-setting-olpc-mesh.c:137
+#: ../libnm-util/nm-setting-wireless.c:619
+msgid "SSID length is out of range <1-32> bytes"
+msgstr "Довжина SSID лежить поза діапазоном у <1-32> байтів"
+
+#: ../libnm-util/nm-setting-olpc-mesh.c:146
+#: ../libnm-util/nm-setting-wireless.c:659
+#, c-format
+msgid "'%d' is not a valid channel"
+msgstr "«%d» не є коректним каналом"
+
+#: ../libnm-util/nm-setting-ppp.c:390
+#, c-format
+msgid "'%d' is out of valid range <128-16384>"
+msgstr "«%d» не належить до коректного діапазону <128-16384>"
+
+#: ../libnm-util/nm-setting-ppp.c:403
+#, c-format
+msgid "setting this property requires non-zero '%s' property"
+msgstr ""
+"встановлення цієї властивості вимагає ненульового значення властивості «%s»"
+
+#: ../libnm-util/nm-setting-vlan.c:490
+#, c-format
+msgid "'%s' value doesn't match '%s=%s'"
+msgstr "значення «%s» не відповідає «%s=%s»"
+
+#: ../libnm-util/nm-setting-vlan.c:501
+#, c-format
+msgid "'%s' is neither an UUID nor an interface name"
+msgstr "«%s» не є ні UUID, ні назвою інтерфейсу"
+
+#: ../libnm-util/nm-setting-vlan.c:514
+#, c-format
+msgid "property is not specified and neither is '%s:%s'"
+msgstr "властивість не вказано і не визначено «%s:%s»"
+
+#: ../libnm-util/nm-setting-vlan.c:527
+msgid "flags are invalid"
+msgstr "прапорці є некоректними"
+
+#: ../libnm-util/nm-setting-wired.c:456
+#, c-format
+msgid "'%s' is not a valid ethernet port value"
+msgstr "«%s» не є коректним значенням номера порту ethernet"
+
+#: ../libnm-util/nm-setting-wired.c:466
+#, c-format
+msgid "'%s' is not a valid duplex value"
+msgstr "«%s» не є коректним значенням дуплексного режиму"
+
+#: ../libnm-util/nm-setting-wired.c:476 ../libnm-util/nm-setting-wired.c:534
+msgid "is not a valid MAC address"
+msgstr "не є коректною MAC-адресою"
+
+#: ../libnm-util/nm-setting-wired.c:489
+#: ../libnm-util/nm-setting-wireless.c:700
+#: ../libnm-util/nm-setting-wireless.c:714
+#, c-format
+msgid "'%s' is not a valid MAC address"
+msgstr "%s не є припустимою MAC-адресою"
+
+#: ../libnm-util/nm-setting-wired.c:523
+#, c-format
+msgid "invalid '%s' or its value '%s'"
+msgstr "некоректний «%s» або його значення «%s»"
+
+#: ../libnm-util/nm-setting-wireless-security.c:813
+#, c-format
+msgid "'%s' security requires '%s=%s'"
+msgstr "для захисту «%s» слід вказати «%s=%s»"
+
+#: ../libnm-util/nm-setting-wireless-security.c:842
+#, c-format
+msgid "'%s' security requires '%s' setting presence"
+msgstr "захист «%s» вимагає використання параметра «%s»"
+
+#: ../libnm-util/nm-setting-wireless-security.c:863
+#, c-format
+msgid "'%d' value is out of range <0-3>"
+msgstr "значення «%d» лежить поза діапазоном <0-3>"
+
+#: ../libnm-util/nm-setting-wireless-security.c:960
+#, c-format
+msgid "'%s' connections require '%s' in this property"
+msgstr "з’єднання «%s» потребують «%s» у цій властивості"
+
+#: ../libnm-util/nm-setting-wireless-security.c:990
+#, c-format
+msgid "'%s' can only be used with '%s=%s' (WEP)"
+msgstr "«%s» можна використовувати лише з «%s=%s» (WEP)"
+
+#: ../libnm-util/nm-setting-wireless.c:628
+#, c-format
+msgid "'%s' is not a valid Wi-Fi mode"
+msgstr "«%s» не є коректним режимом Wi-Fi"
+
+#: ../libnm-util/nm-setting-wireless.c:638
+#, c-format
+msgid "'%s' is not a valid band"
+msgstr "«%s» не є коректним значенням смуги"
+
+#: ../libnm-util/nm-setting-wireless.c:648
+#, c-format
+msgid "requires setting '%s' property"
+msgstr "потребує встановлення властивості «%s»"
+
+#: ../libnm-util/nm-setting-wireless.c:726
+#, c-format
+msgid "'%s' setting is required for the connection when the property is set"
+msgstr ""
+"для встановлення з’єднання з цією встановленою властивістю потрібен параметр "
+"«%s»"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:1
+msgid "Enable or disable system networking"
+msgstr "Увімкнути або вимкнути системну роботу у мережі"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:2
+msgid "System policy prevents enabling or disabling system networking"
+msgstr ""
+"Правила системи забороняють вмикання або вимикання з’єднань з мережею на "
+"системному рівні"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:3
+msgid ""
+"Put NetworkManager to sleep or wake it up (should only be used by system "
+"power management)"
+msgstr ""
+"Призупинити або поновити роботу NetworkManager (має використовуватися лише "
+"інструментами керування живленням системи)"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:4
+msgid "System policy prevents putting NetworkManager to sleep or waking it up"
+msgstr ""
+"Правила системи забороняють присипляння та поновлення роботи NetworkManager"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:5
+msgid "Enable or disable WiFi devices"
+msgstr "Увімкнути або вимкнути пристрої WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:6
+msgid "System policy prevents enabling or disabling WiFi devices"
+msgstr "Правила системи забороняють вмикання або вимикання пристроїв WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:7
+msgid "Enable or disable mobile broadband devices"
+msgstr "Увімкнути або вимкнути пристрої широкосмугових мобільних мереж"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:8
+msgid "System policy prevents enabling or disabling mobile broadband devices"
+msgstr ""
+"Правила системи забороняють вмикання або вимикання пристроїв широкосмугових "
+"мобільних мереж"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:9
+msgid "Enable or disable WiMAX mobile broadband devices"
+msgstr "Увімкнути або вимкнути пристрої широкосмугових мобільних мереж WiMAX"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:10
+msgid ""
+"System policy prevents enabling or disabling WiMAX mobile broadband devices"
+msgstr ""
+"Правила системи забороняють вмикання або вимикання пристроїв широкосмугових "
+"мобільних мереж WiMAX"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:11
+msgid "Allow control of network connections"
+msgstr "Дозволити керування з’єднаннями мережею"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:12
+msgid "System policy prevents control of network connections"
+msgstr "Правила системи забороняють керування з’єднаннями"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:13
+msgid "Connection sharing via a protected WiFi network"
+msgstr "Спільне використання з’єднання на основі захищеної мережі WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:14
+msgid "System policy prevents sharing connections via a protected WiFi network"
+msgstr ""
+"Правила системи забороняють спільне використання з’єднань за допомогою "
+"захищеної мережі WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:15
+msgid "Connection sharing via an open WiFi network"
+msgstr "Спільне використання з’єднання на основі відкритої мережі WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:16
+msgid "System policy prevents sharing connections via an open WiFi network"
+msgstr ""
+"Правила системи забороняють спільне використання з’єднань за допомогою "
+"відкритої мережі WiFi"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:17
+msgid "Modify personal network connections"
+msgstr "Змінити параметри особистих з’єднань з мережею"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:18
+msgid "System policy prevents modification of personal network settings"
+msgstr ""
+"Правила системи забороняють внесення змін до особистих параметрів мережі"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:19
+msgid "Modify network connections for all users"
+msgstr "Внести зміни до мережевих з’єднань всіх користувачів"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:20
+msgid "System policy prevents modification of network settings for all users"
+msgstr ""
+"Правила системи забороняють внесення змін до параметрів мережі для всіх "
+"користувачів"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:21
+msgid "Modify persistent system hostname"
+msgstr "Змінити постійну назву вузла у мережі"
+
+#: ../policy/org.freedesktop.NetworkManager.policy.in.in.h:22
+msgid "System policy prevents modification of the persistent system hostname"
+msgstr ""
+"Правила системи забороняють внесення змін до постійної назви вузла у мережі"
+
+#: ../src/main.c:131
+#, c-format
+msgid "Failed to set signal mask: %d"
+msgstr "Не вдалося встановити маску сигналу: %d"
+
+#: ../src/main.c:140
+#, c-format
+msgid "Failed to create signal handling thread: %d"
+msgstr "Не вдалося створити потік обробки сигналів: %d"
+
+#: ../src/main.c:155
+#, c-format
+msgid "Opening %s failed: %s\n"
+msgstr "Помилка під час спроби відкрити %s: %s\n"
+
+#: ../src/main.c:161
+#, c-format
+msgid "Writing to %s failed: %s\n"
+msgstr "Помилка під час спроби запису даних до %s: %s\n"
+
+#: ../src/main.c:166
+#, c-format
+msgid "Closing %s failed: %s\n"
+msgstr "Не вдалося завершити роботу %s: %s\n"
+
+#: ../src/main.c:209
+#, c-format
+msgid "NetworkManager is already running (pid %ld)\n"
+msgstr "NetworkManager вже запущено (pid %ld)\n"
+
+#: ../src/main.c:324
+msgid "Print NetworkManager version and exit"
+msgstr "Вивести дані щодо версії NetworkManager і завершити роботу"
+
+#: ../src/main.c:325
+msgid "Don't become a daemon"
+msgstr "Не переходити у стан фонової служби"
+
+#: ../src/main.c:326
+msgid "Make all warnings fatal"
+msgstr "Вважати всі попередження помилками"
+
+#: ../src/main.c:327
+msgid "Specify the location of a PID file"
+msgstr "Вказати розташування файла ідентифікатора процесу (PID)"
+
+#: ../src/main.c:327
+msgid "filename"
+msgstr "назва файла"
+
+#: ../src/main.c:328
+msgid "State file location"
+msgstr "Розташування файла стану"
+
+#: ../src/main.c:328
+msgid "/path/to/state.file"
+msgstr "/шлях/до/файла.стану"
+
+#: ../src/main.c:333
+#, c-format
+msgid "GModules are not supported on your platform!\n"
+msgstr "Підтримки GModules на цій платформі не передбачено!\n"
+
+#: ../src/main.c:353
+msgid ""
+"NetworkManager monitors all network connections and automatically\n"
+"chooses the best connection to use.  It also allows the user to\n"
+"specify wireless access points which wireless cards in the computer\n"
+"should associate with."
+msgstr ""
+"NetworkManager виконує стеження за всіма з’єднаннями і автоматично\n"
+"вибирає з них найкраще для використання. Крім того, програма\n"
+"надає користувачеві змогу вказати точки бездротового доступу,\n"
+"з якими слід пов’язувати картки бездротового доступу на вашому\n"
+"комп’ютері."
+
+#: ../src/main.c:359
+#, c-format
+msgid "Invalid option.  Please use --help to see a list of valid options.\n"
+msgstr ""
+"Некоректний параметр. Щоб ознайомитися зі списком параметрів, скористайтеся "
+"параметром --help.\n"
+
+#: ../src/main.c:369
+#, c-format
+msgid "You must be root to run NetworkManager!\n"
+msgstr ""
+"Запуск NetworkManager слід здійснювати з облікового запису адміністратора "
+"(root)!\n"
+
+#: ../src/main.c:401
+#, c-format
+msgid "Failed to read configuration: (%d) %s\n"
+msgstr "Не вдалося прочитати налаштування: (%d) %s\n"
+
+#: ../src/main.c:412
+#, c-format
+msgid "%s.  Please use --help to see a list of valid options.\n"
+msgstr ""
+"%s. Щоб ознайомитися зі списком параметрів, скористайтеся параметром --"
+"help.\n"
+
+#: ../src/main.c:419
+#, c-format
+msgid "State file %s parsing failed: (%d) %s\n"
+msgstr "Помилка під час обробки файла стану %s: (%d) %s\n"
+
+#: ../src/main.c:436
+#, c-format
+msgid "Could not daemonize: %s [error %u]\n"
+msgstr "Не вдалося створити фонову службу: %s [помилка %u]\n"
+
+#: ../src/dhcp-manager/nm-dhcp-dhclient-utils.c:139
+msgid "# Created by NetworkManager\n"
+msgstr "# Створено за допомогою NetworkManager\n"
+
+#: ../src/dhcp-manager/nm-dhcp-dhclient-utils.c:146
+#, c-format
+msgid ""
+"# Merged from %s\n"
+"\n"
+msgstr ""
+"# Об’єднано з %s\n"
+"\n"
+
+#: ../src/dhcp-manager/nm-dhcp-manager.c:313
+msgid "no usable DHCP client could be found."
+msgstr "не вдалося знайти придатного до використання клієнта DHCP."
+
+#: ../src/dhcp-manager/nm-dhcp-manager.c:322
+msgid "'dhclient' could be found."
+msgstr "не вдалося знайти «dhclient»."
+
+#: ../src/dhcp-manager/nm-dhcp-manager.c:332
+msgid "'dhcpcd' could be found."
+msgstr "не вдалося знайти «dhcpcd»."
+
+#: ../src/dhcp-manager/nm-dhcp-manager.c:340
+#, c-format
+msgid "unsupported DHCP client '%s'"
+msgstr "підтримки клієнта DHCP «%s» не передбачено"
+
+#: ../src/dns-manager/nm-dns-manager.c:366
+msgid "NOTE: the libc resolver may not support more than 3 nameservers."
+msgstr ""
+"ЗАУВАЖЕННЯ: можливо, інструмент визначення адрес за назвами libc вашої "
+"системи не підтримує використання понад 3 серверів назв."
+
+#: ../src/dns-manager/nm-dns-manager.c:368
+msgid "The nameservers listed below may not be recognized."
+msgstr "Вказані у наведеному нижче списку сервери назв може бути пропущено."
+
+#: ../src/logging/nm-logging.c:142
+#, c-format
+msgid "Unknown log level '%s'"
+msgstr "Невідомий рівень ведення журналу, «%s»"
+
+#: ../src/logging/nm-logging.c:188
+#, c-format
+msgid "Unknown log domain '%s'"
+msgstr "Невідомий домен ведення журналу, «%s»"
+
+#: ../src/config/nm-config.c:255
+msgid "Config file location"
+msgstr "Розташування файла налаштувань"
+
+#: ../src/config/nm-config.c:255
+msgid "/path/to/config.file"
+msgstr "/шлях/до/файла.налаштувань"
+
+#: ../src/config/nm-config.c:256
+msgid "Config directory location"
+msgstr "Розташування каталогу налаштувань"
+
+#: ../src/config/nm-config.c:256
+msgid "/path/to/config/dir"
+msgstr "/шлях/до/каталогу/налаштувань"
+
+#: ../src/config/nm-config.c:258
+msgid "List of plugins separated by ','"
+msgstr "Список додатків, відокремлених комами («,»)"
+
+#: ../src/config/nm-config.c:258
+msgid "plugin1,plugin2"
+msgstr "додаток1,додаток2"
+
+#: ../src/config/nm-config.c:259
+#, c-format
+msgid "Log level: one of [%s]"
+msgstr "Рівень докладності журналу: одне з таких значень: [%s]"
+
+#: ../src/config/nm-config.c:261
+#, c-format
+msgid "Log domains separated by ',': any combination of [%s]"
+msgstr ""
+"Список доменів для ведення журналу, відокремлених символом «,»: будь-яка "
+"комбінація з [%s]"
+
+#. These three are hidden for now, and should eventually just go away.
+#: ../src/config/nm-config.c:265
+msgid "An http(s) address for checking internet connectivity"
+msgstr "Адреса http(s) для спроб перевірки можливості встановлення з’єднання"
+
+#: ../src/config/nm-config.c:266
+msgid "The interval between connectivity checks (in seconds)"
+msgstr "Інтервал між перевірками можливості з’єднання (у секундах)"
+
+#: ../src/config/nm-config.c:267
+msgid "The expected start of the response"
+msgstr "Очікуваний початок відповіді"
+
+#: ../src/config/nm-config.c:267
+msgid "Bingo!"
+msgstr "Влучно!"
+
+#: ../src/modem-manager/nm-modem-cdma.c:255
+#: ../src/modem-manager/nm-modem-broadband.c:516 ../src/nm-device-bt.c:331
+#, c-format
+msgid "CDMA connection %d"
+msgstr "З’єднання CDMA %d"
+
+#: ../src/modem-manager/nm-modem-gsm.c:531
+#: ../src/modem-manager/nm-modem-broadband.c:494 ../src/nm-device-bt.c:327
+#, c-format
+msgid "GSM connection %d"
+msgstr "З’єднання GSM %d"
+
+#: ../src/nm-device-bond.c:166
+#, c-format
+msgid "Bond connection %d"
+msgstr "Прив’язане з’єднання %d"
+
+#: ../src/nm-device-adsl.c:197
+#, c-format
+msgid "ADSL connection %d"
+msgstr "З’єднання ADSL %d"
+
+#: ../src/nm-device-bridge.c:164
+#, c-format
+msgid "Bridge connection %d"
+msgstr "З’єднання містка %d"
+
+#: ../src/nm-device-bt.c:302
+#, c-format
+msgid "PAN connection %d"
+msgstr "З’єднання PAN %d"
+
+#: ../src/nm-device-bt.c:335
+#, c-format
+msgid "DUN connection %d"
+msgstr "З’єднання DUN %d"
+
+#: ../src/nm-device-ethernet.c:1294
+#, c-format
+msgid "PPPoE connection %d"
+msgstr "З’єднання PPPoE %d"
+
+#: ../src/nm-device-ethernet.c:1294 ../src/settings/nm-settings-utils.c:50
+#, c-format
+msgid "Wired connection %d"
+msgstr "Дротове з’єднання %d"
+
+#: ../src/nm-device-infiniband.c:270
+#, c-format
+msgid "InfiniBand connection %d"
+msgstr "З’єднання InfiniBand %d"
+
+#: ../src/nm-device-olpc-mesh.c:304
+#, c-format
+msgid "Mesh %d"
+msgstr "Mesh %d"
+
+#: ../src/nm-device-vlan.c:315
+#, c-format
+msgid "VLAN connection %d"
+msgstr "З’єднання VLAN %d"
+
+#: ../src/nm-manager.c:751
+#, c-format
+msgid "VPN connection %d"
+msgstr "З’єднання VPN %d"
+
+#: ../src/nm-netlink-monitor.c:162 ../src/nm-netlink-monitor.c:286
+#: ../src/nm-netlink-monitor.c:671
+#, c-format
+msgid "error processing netlink message: %s"
+msgstr "помилка під час обробки повідомлення netlink: %s"
+
+#: ../src/nm-netlink-monitor.c:265
+msgid "error occurred while waiting for data on socket"
+msgstr "під час очікування на дані з сокета сталася помилка"
+
+#: ../src/nm-netlink-monitor.c:310
+#, c-format
+msgid "unable to connect to netlink for monitoring link status: %s"
+msgstr ""
+"не вдалося встановити з’єднання з netlink для спостереження за станом "
+"з’єднання: %s"
+
+#: ../src/nm-netlink-monitor.c:321
+#, c-format
+msgid "unable to enable netlink handle credential passing: %s"
+msgstr ""
+"не вдалося увімкнути інструмент netlink передавання реєстраційних даних: %s"
+
+#: ../src/nm-netlink-monitor.c:364 ../src/nm-netlink-monitor.c:424
+#, c-format
+msgid "unable to allocate netlink handle for monitoring link status: %s"
+msgstr ""
+"не вдалося розмістити у пам’яті інструмент netlink для спостереження за "
+"станом з’єднання: %s"
+
+#: ../src/nm-netlink-monitor.c:449
+#, c-format
+msgid "unable to allocate netlink link cache for monitoring link status: %s"
+msgstr ""
+"не вдалося розмістити у пам’яті кеш з’єднань netlink для спостереження за "
+"станом з’єднань: %s"
+
+#: ../src/nm-netlink-monitor.c:541
+#, c-format
+msgid "unable to join netlink group: %s"
+msgstr "не вдалося долучитися до групи netlink: %s"
+
+#: ../src/nm-netlink-monitor.c:647 ../src/nm-netlink-monitor.c:660
+#, c-format
+msgid "error updating link cache: %s"
+msgstr "помилка під час спроби оновлення кешу з’єднання: %s"
+
+#: ../src/settings/plugins/ifcfg-rh/reader.c:110
+msgid "System"
+msgstr "Система"
+
+#: ../src/settings/plugins/ifcfg-rh/reader.c:3664
+msgid "Bond"
+msgstr "Прив’язка"
+
+#: ../src/settings/plugins/ifcfg-rh/reader.c:3852
+msgid "Bridge"
+msgstr "Місток"
+
+#: ../test/nm-online.c:111
+#, c-format
+msgid "\rConnecting"
+msgstr "\rВстановлюється з’єднання"
+
+#: ../test/nm-online.c:142
+msgid "Time to wait for a connection, in seconds (default is 30)"
+msgstr "Час очікування на з’єднання, у секундах (типовим є 30)"
+
+#: ../test/nm-online.c:143
+msgid "Exit immediately if NetworkManager is not running or connecting"
+msgstr ""
+"Негайно завершити роботу, якщо NetworkManager не запущено або виконується "
+"спроба з’єднання"
+
+#: ../test/nm-online.c:144
+msgid "Don't print anything"
+msgstr "Нічого не виводити"
+
+#: ../test/nm-online.c:162
+msgid "Waits for a successful connection in NetworkManager."
+msgstr "Очікувати на успішне з’єднання у NetworkManager."
+
+#: ../test/nm-online.c:168 ../test/nm-online.c:177
+msgid "Invalid option.  Please use --help to see a list of valid options."
+msgstr ""
+"Некоректний параметр. Щоб ознайомитися зі списком параметрів, скористайтеся "
+"параметром --help."
+
+#~ msgid "Connection list"
+#~ msgstr "Список з’єднань"
+
+#~ msgid "Error: no valid parameter specified."
+#~ msgstr "Помилка: не вказано коректних параметрів."
+
+#~ msgid "Error: Can't find out if NetworkManager is running: %s."
+#~ msgstr "Помилка: не вдалося визначити, чи працює NetworkManager: %s."
+
+#~ msgid "Error: id or uuid has to be specified."
+#~ msgstr "Помилка: мало бути вказано id або uuid."
+
+#~ msgid "Warning: Connection not active\n"
+#~ msgstr "Помилка: з’єднання не є активним\n"
+
+#~ msgid "Error: could not connect to D-Bus."
+#~ msgstr "Помилка: не вдалося встановити з’єднання з D-Bus."
+
+#~ msgid "Error: Device '%s' is not a WiFi device."
+#~ msgstr "Помилка: пристрій «%s» не є пристроєм WiFi."
+
+#~ msgid "Error: 'nm status': %s"
+#~ msgstr "Помилка: «nm status»: %s"
+
+#~ msgid "Error: 'nm status': %s; allowed fields: %s"
+#~ msgstr "Помилка: «nm status»: %s; дозволені поля: %s"
+
+#~ msgid "Error: Couldn't create D-Bus object proxy for org.freedesktop.DBus"
+#~ msgstr ""
+#~ "Помилка: не вдалося створити проксі-об’єкт D-Bus для org.freedesktop.DBus"
+
+#~ msgid "Error: NameHasOwner request failed: %s"
+#~ msgstr "Помилка: невдала спроба запиту NameHasOwner: %s"
+
+#~ msgid ""
+#~ "Log domains separated by ',': any combination of\n"
+#~ "                                                [NONE,HW,RFKILL,ETHER,"
+#~ "WIFI,BT,MB,DHCP4,DHCP6,PPP,\n"
+#~ "                                                 WIFI_SCAN,IP4,IP6,"
+#~ "AUTOIP4,DNS,VPN,SHARING,SUPPLICANT,\n"
+#~ "                                                 AGENTS,SETTINGS,SUSPEND,"
+#~ "CORE,DEVICE,OLPC,WIMAX,\n"
+#~ "                                                 INFINIBAND,FIREWALL,ADSL]"
+#~ msgstr ""
+#~ "Області ведення журналу, відокремлені комами, довільна комбінація таких "
+#~ "значень:\n"
+#~ "                                          NONE,HW,RFKILL,ETHER,WIFI, BT,"
+#~ "MB,DHCP4,DHCP6,PPP,\n"
+#~ "                                           WIFI_SCAN,IP4,IP6,AUTOIP4,DNS,"
+#~ "VPN,SHARING,SUPPLICANT,\n"
+#~ "                                           AGENTS,SETTINGS,SUSPEND,CORE,"
+#~ "DEVICE,OLPC,WIMAX,\n"
+#~ "                                           INFINIBAND,FIREWALL,ADSL]"
+
+#~ msgid "Not enough memory to store PEM file data."
+#~ msgstr "Недостатньо пам’яті для збереження даних файла PEM."
+
+#~ msgid "Not enough memory to store private key data."
+#~ msgstr "Недостатньо пам’яті для зберігання даних закритого ключа."
+
+#~ msgid "Not enough memory to store certificate data."
+#~ msgstr "Недостатньо пам’яті для збереження даних сертифіката."
+
+#~ msgid "Not enough memory to store the IV."
+#~ msgstr "Недостатньо пам’яті для зберігання ВІ."
+
+#~ msgid "Not enough memory to decrypt private key."
+#~ msgstr "Недостатньо пам’яті для дешифрування закритого ключа."
+
+#~ msgid "Not enough memory to store decrypted private key."
+#~ msgstr "Недостатньо пам’яті для зберігання розшифрованого закритого ключа."
+
+#~ msgid "Not enough memory for decrypted key buffer."
+#~ msgstr "Недостатньо пам’яті для буфера розшифрованого ключа."
+
+#~ msgid "Could not allocate memory for encrypting."
+#~ msgstr "Не вдалося отримати область розшифрування у пам’яті."
+
+#~ msgid "Not enough memory to make encryption key."
+#~ msgstr "Недостатньо пам’яті для створення ключа шифрування."
+
+#~ msgid "Could not allocate memory for PEM file creation."
+#~ msgstr "Не вдалося отримати область пам’яті для створення файла PEM."
+
+#~ msgid "Could not allocate memory for writing IV to PEM file."
+#~ msgstr "Не вдалося отримати область пам’яті для запису ВІ до файла PEM."
+
+#~ msgid "Could not allocate memory for writing encrypted key to PEM file."
+#~ msgstr ""
+#~ "Не вдалося отримати область пам’яті для запису зашифрованого ключа до "
+#~ "файла PEM."
+
+#~ msgid "Could not allocate memory for PEM file data."
+#~ msgstr "Не вдалося отримати область пам’яті для даних файла PEM."

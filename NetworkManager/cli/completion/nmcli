@@ -1,0 +1,325 @@
+# nmcli(1) completion                                      -*- shell-script -*-
+# Originally based on
+# https://github.com/GArik/bash-completion/blob/master/completions/nmcli
+
+_nmcli_list()
+{
+    COMPREPLY=( $( compgen -W '$1' -- $cur ) )
+}
+
+_nmcli_list_nl()
+{
+    local IFS=$'\n'
+    COMPREPLY=( $( compgen -W '$1' -- $cur ) )
+}
+
+_nmcli_con_id()
+{
+    echo "$(nmcli -t -f NAME con show c 2>/dev/null)"
+}
+
+_nmcli_con_uuid()
+{
+    echo "$(nmcli -t -f UUID con show c 2>/dev/null)"
+}
+
+_nmcli_con_path()
+{
+    echo "$(nmcli -t -f DBUS-PATH con show c 2>/dev/null)"
+}
+
+_nmcli_con_apath()
+{
+    echo "$(nmcli -t -f DBUS-PATH con show a 2>/dev/null)"
+}
+
+_nmcli_ap_ssid()
+{
+    echo "$(nmcli -t -f SSID dev wifi list 2>/dev/null)"
+
+    # without quotes
+    #ssids="$(nmcli -t -f SSID dev wifi list 2>/dev/null)"
+    #local IFS=$'\n'
+    #for ssid in $ssids; do
+    #   temp="${ssid%\'}"
+    #   temp="${temp#\'}"
+    #   echo "$temp"
+    #done
+}
+
+_nmcli_ap_bssid()
+{
+    echo "$(nmcli -e no -t -f BSSID dev wifi list 2>/dev/null)"
+}
+
+_nmcli_NM_devices()
+{
+    echo "$(nmcli -t -f DEVICE dev status 2>/dev/null)"
+}
+
+_nmcli_NM_dev_MAC()
+{
+    echo "$(nmcli -t dev show | grep HWADDR | cut -d':' -f2- | sort | uniq)"
+}
+
+_nmcli()
+{
+    local cur prev words cword
+    _init_completion || return
+
+    case $prev in
+        -m|--mode)
+            _nmcli_list "tabular multiline"
+            return 0
+            ;;
+        -f|--fields)
+            _nmcli_list "all common"
+            return 0
+            ;;
+        -e|--escape)
+            _nmcli_list "yes no"
+            return 0
+            ;;
+        id)
+            _nmcli_list_nl "$(_nmcli_con_id)"
+            return 0
+            ;;
+        uuid)
+            _nmcli_list_nl "$(_nmcli_con_uuid)"
+            return 0
+            ;;
+        path)
+            _nmcli_list_nl "$(_nmcli_con_path)"
+            return 0
+            ;;
+        apath)
+            _nmcli_list_nl "$(_nmcli_con_apath)"
+            return 0
+            ;;
+        iface | ifname)
+            #_available_interfaces
+            _nmcli_list_nl "$(_nmcli_NM_devices)"
+            return 0
+            ;;
+        bssid)
+            _nmcli_list_nl "$(_nmcli_ap_bssid)"
+            return 0
+            ;;
+        wep-key-type)
+            _nmcli_list "key phrase"
+            return 0
+            ;;
+        autoconnect | stp | hairpin | private)
+            _nmcli_list "yes no"
+            return 0
+            ;;
+        # connection types
+        type)
+            _nmcli_list "ethernet wifi wimax gsm cdma infiniband adsl bluetooth vpn \
+                         olpc-mesh vlan bond bridge bond-slave bridge-slave"
+            return 0
+            ;;
+        # VPN types
+        vpn-type)
+            _nmcli_list "vpn-type vpnc openvpn pptp openconnect openswan"
+            return 0
+            ;;
+        # Bluetooth modes
+        bt-type)
+            _nmcli_list "panu dun-gsm dun-cdma"
+            return 0
+            ;;
+        # InfiniBand transport modes
+        transport-mode)
+            _nmcli_list "datagram connected"
+            return 0
+            ;;
+        # bonding modes
+        mode)
+            _nmcli_list "balance-rr active-backup balance-xor broadcast \
+                         802.3ad balance-tlb balance-alb"
+            return 0
+            ;;
+        # MAC addresses
+        mac)
+            _mac_addresses
+            return 0
+            ;;
+        # master interface
+        master)
+            UUIDS=$(_nmcli_con_uuid)
+            DEVICES=$(_nmcli_NM_devices)
+            _nmcli_list "$DEVICES $UUIDS"
+            return 0
+            ;;
+    esac
+
+    if [[ $cword -eq 1 ]] ; then
+        if [[ "$cur" == -* ]]; then
+           if [[ "$cur" == -[tpmfenavh] ]]; then
+                _nmcli_list "-t -p -m -f -e -n -a -v -h"
+           else
+                _nmcli_list "--terse --pretty --mode --fields --escape --nocheck --ask --version --help"
+           fi
+        else
+            _nmcli_list "general networking radio connection device"
+        fi
+    else
+        local object=${words[1]}
+        local command=${words[2]}
+
+        [[ $command == help ]] && return 0
+
+        case $object in
+            general)
+                case $command in
+                    status | permissions)
+                        return 0
+                        ;;
+                    logging)
+                        _nmcli_list "level domains"
+                        return 0
+                        ;;
+                esac
+
+                _nmcli_list "status permissions logging help"
+                ;;
+
+            networking)
+                case $command in
+                    on | off)
+                    return 0
+                    ;;
+                esac
+                _nmcli_list "on off help"
+                ;;
+
+            radio)
+                case $command in
+                    all | wifi | mobile | wimax)
+                        _nmcli_list "on off"
+                        return 0
+                        ;;
+                esac
+
+                _nmcli_list "all wifi mobile wimax help"
+                ;;
+
+            connection)
+                case $command in
+                    show)
+                        local subcommand=${words[3]}
+
+                        case $subcommand in
+                            configured)
+                                _nmcli_list "id uuid path"
+                                return 0
+                                ;;
+                            active)
+                                _nmcli_list "id uuid path apath"
+                                return 0
+                                ;;
+                        esac
+
+                        _nmcli_list "configured active"
+                        return 0
+                        ;;
+                    up)
+                        if [[ "$cur" == -* ]]; then
+                            _nmcli_list "--nowait --timeout"
+                        else
+                            _nmcli_list "id uuid path iface ap nsp"
+                        fi
+                        return 0
+                        ;;
+                    down)
+                        _nmcli_list "id uuid path apath"
+                        return 0
+                        ;;
+                    add)
+                        _nmcli_list "type con-name autoconnect ifname help"
+                        return 0
+                        ;;
+                    delete)
+                        _nmcli_list "id uuid path"
+                        return 0
+                        ;;
+                esac
+
+                _nmcli_list "show up down add delete reload help"
+                ;;
+
+            device)
+                case $command in
+                    show)
+                        _nmcli_list_nl "$(_nmcli_NM_devices)"
+                        return 0
+                        ;;
+                    disconnect)
+                        if [[ "$cur" == -* ]]; then
+                            _nmcli_list "--nowait --timeout"
+                        else
+                            _nmcli_list_nl "$(_nmcli_NM_devices)"
+                        fi
+                        return 0
+                        ;;
+                    wifi)
+                        local subcommand=${words[3]}
+
+                        case $subcommand in
+                            list)
+                                _nmcli_list "iface bssid"
+                                return 0
+                                ;;
+                            connect)
+                                if [[ "$cur" == -* ]]; then
+                                    _nmcli_list "--private --nowait --timeout"
+                                else
+                                    if [[ "$prev" == "connect" ]]; then
+                                        _nmcli_list_nl "$(_nmcli_ap_ssid)"
+                                    else
+                                        _nmcli_list "password wep-key-type iface bssid name"
+                                    fi
+                                fi
+                                return 0
+                                ;;
+                            scan)
+                                if [[ "$cur" == i* ]]; then
+                                    _nmcli_list "iface"
+                                else
+                                    _nmcli_list_nl "$(_nmcli_NM_devices)"
+                                fi
+                                return 0
+                                ;;
+                        esac
+
+                        _nmcli_list "list connect scan"
+                        return 0
+                        ;;
+                    wimax)
+                        local subcommand=${words[3]}
+
+                        case $subcommand in
+                            list)
+                                _nmcli_list "iface nsp"
+                                return 0
+                                ;;
+                        esac
+
+                        _nmcli_list "list"
+                        return 0
+                        ;;
+
+                esac
+
+                _nmcli_list "status show disconnect wifi wimax help"
+                ;;
+        esac
+
+    fi
+
+    return 0
+} &&
+complete -F _nmcli nmcli
+
+# ex: ts=4 sw=4 et filetype=sh
